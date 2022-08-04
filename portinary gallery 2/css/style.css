@@ -87,7 +87,6 @@ body {
 
 
 
-
 .button {
 
     cursor: pointer;
@@ -116,20 +115,13 @@ button:focus {
     justify-content: space-between;
     
     
-}
-
-.navigation *:not(info:hover) {
-    
-    transition: opacity 0.5s ease;
-}
-
-
-
-.slide:hover .navigation {
-    
-    opacity: 1;
     
 }
+
+
+
+
+
 
 .prev-btn, .next-btn {
     z-index: 999;
@@ -138,8 +130,13 @@ button:focus {
     background: rgba(255, 255, 255, 0.121);
     padding: 10px;
     cursor: pointer;
+    opacity: 0.3;
+    transition: opacity 0.5 ease
 
     
+}
+.prev-btn:hover, .next-btn:hover {
+    opacity: 1;
 }
 
 .prev-btn {
@@ -151,3 +148,4 @@ button:focus {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
+
