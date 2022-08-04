@@ -47,18 +47,25 @@ body {
 
  .info {
     position: absolute;
-    color: #222;
-    background: rgba(255, 255, 255, 0.3);
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.6;
+    padding: 0.5em 0 1em 1em;
+    color: rgb(251, 247, 247);
+    background: rgba(255, 255, 255, 0.1);
     width: 100%;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    transform: translateY(520%);
-    opacity: 0;
+    transform: translateY(325%);
+    transition: transform 200ms ease-in;
+    
 }
 
-/*  .slide:hover
-  {
-    transform: scale(1.05);
-    transition: 500ms ease;
-} */
+ 
+ .info:hover,
+ .info:focus-within {
+    transform: translateY(265%);
+    transition: transform 350ms ease;
+    transition-delay: 200ms;
+
+}
