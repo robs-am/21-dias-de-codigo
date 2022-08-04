@@ -31,7 +31,9 @@ body {
 }
 
 .slider:hover,
-.slider:focus-within {
+.slider:focus-within
+ {
+    transform: translateY(40%);
     transform: scale(1.05);
     transition: 500ms ease-in;
 }
@@ -62,7 +64,20 @@ body {
     border-bottom-left-radius: 10px;
     transform: translateY(273%);
     transition: transform 200ms ease-in;
-    opacity: 0;
+    transition: opacity 400ms;
+    opacity: 0.2;
+    
+}
+
+
+
+.info:hover,
+.info:focus-within {
+   opacity:1;
+   transform: translateY(205%);
+   transition: transform 350ms ease;
+   transition-delay: 300ms;
+
 }
 
 .slider .slide .info h2 {
@@ -70,14 +85,8 @@ body {
     
 }
 
- .info:hover,
- .info:focus-within {
-    opacity:1;
-    transform: translateY(205%);
-    transition: transform 350ms ease;
-    transition-delay: 500ms;
 
-}
+
 
 .button {
 
@@ -110,10 +119,17 @@ button:focus {
 }
 
 .navigation *:not(info:hover) {
-    opacity: 0;
+    
+    transition: opacity 0.5s ease;
 }
 
-.slider
+
+
+.slide:hover .navigation {
+    
+    opacity: 1;
+    
+}
 
 .prev-btn, .next-btn {
     z-index: 999;
