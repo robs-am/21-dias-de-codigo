@@ -6,6 +6,20 @@
 }
 
 body {
-    height: 100vh;
+    
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #010801;
 }
+
+.slider {
+    position: relative;
+    background: #010801;
+    width: 800px;
+    min-height: 500px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
