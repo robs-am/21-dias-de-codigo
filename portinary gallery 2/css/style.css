@@ -66,8 +66,8 @@ body {
 }
 
 .slider .slide .info h2 {
-    font-size: 2em;
-    font-weight: 800;
+    font-size: 1.5em;
+    
 }
 
  .info:hover,
@@ -97,4 +97,34 @@ button:focus {
     cursor: pointer;
     background-color: #9ba098;
     color: #fafafa;
+}
+
+.navigation {
+    
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.prev-btn, .next-btn {
+    z-index: 999;
+    font-size: 1.8em;
+    color:#969895c3;
+    background: rgba(255, 255, 255, 0.363);
+    padding: 10px;
+    cursor: pointer;
+
+    
+}
+
+.prev-btn {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.next-btn {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
