@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #010801;
+    background: #ebf3eb;
 }
 
 .slider {
@@ -62,7 +62,7 @@ body {
     backdrop-filter: blur(5px);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    transform: translateY(273%);
+    transform: translateY(280%);
     transition: transform 200ms ease-in;
     transition: opacity 400ms;
     opacity: 0.2;
@@ -74,7 +74,7 @@ body {
 .info:hover,
 .info:focus-within {
    opacity:1;
-   transform: translateY(205%);
+   transform: translateY(210%);
    transition: transform 350ms ease;
    transition-delay: 300ms;
 
@@ -149,3 +149,20 @@ button:focus {
     border-bottom-right-radius: 3px;
 }
 
+.navigation-visibility {
+    
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navigation-visibility .slide-icon {
+    
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.486);
+    width: 20px;
+    height: 10px;
+    transform:translateY(-10px);
+    margin: 0 6px;
+}
