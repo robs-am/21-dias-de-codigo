@@ -20,7 +20,7 @@ body {
     min-height: 500px;
     margin: 20px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 0.3em;
 }
 
 .slider .slide {
@@ -28,3 +28,37 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.slider:hover,
+.slider:focus-within {
+    transform: scale(1.05);
+    transition: 500ms ease-in;
+}
+
+.slider .slide img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+
+}
+
+ .info {
+    position: absolute;
+    color: #222;
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    backdrop-filter: blur(3px);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform: translateY(520%);
+    opacity: 0;
+}
+
+/*  .slide:hover
+  {
+    transform: scale(1.05);
+    transition: 500ms ease;
+} */
