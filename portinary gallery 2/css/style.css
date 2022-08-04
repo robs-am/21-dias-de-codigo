@@ -75,7 +75,7 @@ body {
     opacity:1;
     transform: translateY(205%);
     transition: transform 350ms ease;
-    transition-delay: 700ms;
+    transition-delay: 500ms;
 
 }
 
@@ -106,13 +106,20 @@ button:focus {
     align-items: center;
     justify-content: space-between;
     
+    
 }
+
+.navigation *:not(info:hover) {
+    opacity: 0;
+}
+
+.slider
 
 .prev-btn, .next-btn {
     z-index: 999;
     font-size: 1.8em;
-    color:#969895c3;
-    background: rgba(255, 255, 255, 0.363);
+    color:rgba(168, 171, 168, 0.429);
+    background: rgba(255, 255, 255, 0.121);
     padding: 10px;
     cursor: pointer;
 
