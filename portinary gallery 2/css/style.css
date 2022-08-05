@@ -6,7 +6,7 @@
 }
 
 body {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 
 .slider {
-    
+
     position: relative;
     background: #010801;
     width: 800px;
@@ -31,8 +31,7 @@ body {
 }
 
 .slider:hover,
-.slider:focus-within
- {
+.slider:focus-within {
     transform: translateY(40%);
     transform: scale(1.05);
     transition: 500ms ease-in;
@@ -43,19 +42,19 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
-    
+
+
 
 }
 
 
 
- .info {
-    
+.info {
+
     font-family: 'Work Sans', sans-serif;
     line-height: 1.6;
     padding: 0.5em 0 1em 1em;
-    
+
     color: rgb(251, 247, 247);
     background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(14, 14, 14, 0.162));
     width: 100%;
@@ -66,23 +65,23 @@ body {
     transition: transform 200ms ease-in;
     transition: opacity 400ms;
     opacity: 0.2;
-    
+
 }
 
 
 
 .info:hover,
 .info:focus-within {
-   opacity:1;
-   transform: translateY(210%);
-   transition: transform 350ms ease;
-   transition-delay: 300ms;
+    opacity: 1;
+    transform: translateY(210%);
+    transition: transform 350ms ease;
+    transition-delay: 300ms;
 
 }
 
 .slider .slide .info h2 {
     font-size: 1.5em;
-    
+
 }
 
 
@@ -108,14 +107,14 @@ button:focus {
 }
 
 .navigation {
-    
+
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    
-    
+
+
+
 }
 
 
@@ -123,19 +122,20 @@ button:focus {
 
 
 
-.prev-btn, .next-btn {
+.prev-btn,
+.next-btn {
     z-index: 999;
     font-size: 1.8em;
-    color:rgba(168, 171, 168, 0.429);
+    color: rgba(168, 171, 168, 0.429);
     background: rgba(255, 255, 255, 0.121);
     padding: 10px;
     cursor: pointer;
     opacity: 0.3;
     transition: opacity 0.5 ease
-
-    
 }
-.prev-btn:hover, .next-btn:hover {
+
+.prev-btn:hover,
+.next-btn:hover {
     opacity: 1;
 }
 
@@ -150,24 +150,52 @@ button:focus {
 }
 
 .navigation-visibility {
-    
+
     z-index: 999;
     display: flex;
     justify-content: center;
-    
+
 
 }
 
 .navigation-visibility .slide-icon {
-    
+
     z-index: 999;
     background: rgba(255, 255, 255, 0.301);
     width: 15px;
     height: 10px;
-    transform:translateY(-10px);
+    transform: translateY(-10px);
     margin: 0 6px;
     border-radius: 0.8em;
     box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
-    
+
 }
 
+@media (max-width: 700px) {
+    .slider img {
+        position: absolute;
+        width: 600px;
+        object-fit: none;
+
+    }
+}
+
+@media (min-width: 320px) {
+    .info {
+        font-size: 12px;
+        transform: translateY(330%);
+        transition: transform 200ms ease-in;
+        transition: opacity 400ms;
+        opacity: 0.2;
+    }
+
+    .info:hover,
+    .info:focus-within {
+        opacity: 1;
+        transform: translateY(260%);
+        transition: transform 350ms ease;
+        transition-delay: 300ms;
+    
+    }
+
+}   
