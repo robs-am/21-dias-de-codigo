@@ -180,7 +180,7 @@ button:focus {
     }
 }
 
-@media (min-width: 320px) {
+@media  (max-width: 375px) {
     .info {
         font-size: 12px;
         transform: translateY(330%);
@@ -195,6 +195,19 @@ button:focus {
         transform: translateY(260%);
         transition: transform 350ms ease;
         transition-delay: 300ms;
+    
+    }
+
+    .navigation-visibility .slide-icon {
+
+        z-index: 999;
+        background: rgba(255, 255, 255, 0.301);
+        width: 5px;
+        height: 5px;
+        transform: translateY(-5px);
+        margin: 0 8px;
+        border-radius: 0.8em;
+        box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
     
     }
 
