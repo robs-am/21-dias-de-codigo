@@ -178,7 +178,49 @@ button:focus {
         object-fit: none;
 
     }
+
+    
+
 }
+
+@media (max-width: 600px) {
+    .info {
+        font-size: 14px;
+        transform: translateY(330%);
+        transition: transform 200ms ease-in;
+        transition: opacity 400ms;
+        opacity: 0.2;
+    }
+
+    .info:hover,
+    .info:focus-within {
+        opacity: 1;
+        transform: translateY(260%);
+        transition: transform 350ms ease;
+        transition-delay: 300ms;
+    
+    }
+}
+
+@media (max-width: 500px) {
+    .info {
+        font-size: 14px;
+        transform: translateY(285%);
+        transition: transform 200ms ease-in;
+        transition: opacity 400ms;
+        opacity: 0.2;
+    }
+
+    .info:hover,
+    .info:focus-within {
+        opacity: 1;
+        transform: translateY(210%);
+        transition: transform 350ms ease;
+        transition-delay: 300ms;
+    
+    }
+
+  }
 
 @media  (max-width: 375px) {
     .info {
@@ -200,12 +242,13 @@ button:focus {
 
     .navigation-visibility .slide-icon {
 
-       
+     
+        width: 5px;
         height: 5px;
         transform: translateY(-5px);
         margin: 0 8px;
-        
-        
+        border-radius: 0.8em;
+        box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
     
     }
 
