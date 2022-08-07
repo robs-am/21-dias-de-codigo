@@ -35,7 +35,7 @@ main {
 }
 .nav {
     
-    background:rgba(173, 172, 172, 0.041);
+    background:rgba(135, 134, 134, 0.041);
     padding: 1em 6.2em;
     border-top: 2px solid  rgba(84, 84, 84, 0.041);
     border-bottom: 0.2px inset  rgba(84, 84, 84, 0.041);
@@ -55,7 +55,21 @@ main {
 
 a:link {
     text-decoration: none;
+    color:#9ba098;
 }
+
+a:hover {
+    background:  rgba(214, 212, 212, 0.406);
+    padding: 1em 0.5em;
+    border-top: 1px inset rgba(222, 221, 221, 0.342);
+    border-bottom: 1px inset rgba(222, 221, 221, 0.342);
+   
+    border-radius: 1.5px;
+}
+
+a:visited {
+    color: none;
+  }
 
 .slider {
 
