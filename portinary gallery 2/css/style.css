@@ -9,11 +9,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 main {
-    width: 900px;
-    height: 95vh;
+    width: 1000px;
+    height: 100vh;
     object-fit: cover;
 
 
@@ -23,23 +24,31 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background: #9ba0981b;
+    background: #b9bdb61b;
     border: 1px solid rgba(51, 50, 50, 0.041);
 }
 
 .tituloPagina {
     text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
     color: rgba(87, 82, 82, 0.783);
+    
 }
-
+.nav {
+    
+    background:rgba(173, 172, 172, 0.041);
+    padding: 1em 6.2em;
+    border-top: 2px solid  rgba(84, 84, 84, 0.041);
+    border-bottom: 0.2px inset  rgba(84, 84, 84, 0.041);
+    
+}
 .nav ul {
-
-    width: 600px;
+    
+    width: 800px;
     display: flex;
     flex-direction: row;
 
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     list-style: none;
 }
@@ -207,6 +216,10 @@ button:focus {
 }
 
 @media (max-width: 700px) {
+    main {
+        width:800px;
+        height: 80vh;
+    }
     .slider img {
         position: absolute;
         width: 600px;
@@ -220,8 +233,8 @@ button:focus {
 
 @media (max-width: 600px) {
     .info {
-        font-size: 14px;
-        transform: translateY(330%);
+        font-size: 12px;
+        transform: translateY(500%);
         transition: transform 200ms ease-in;
         transition: opacity 400ms;
         opacity: 0.2;
@@ -230,7 +243,7 @@ button:focus {
     .info:hover,
     .info:focus-within {
         opacity: 1;
-        transform: translateY(260%);
+        transform: translateY(200%);
         transition: transform 350ms ease;
         transition-delay: 300ms;
 
