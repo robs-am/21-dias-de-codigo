@@ -30,3 +30,11 @@ var slideNumber = 0;
 
 //IMAGE SLIDER NEXT BUTTON//
 
+nextBtn.addEventListener("click", () => {
+    slideNumber++;
+
+    if(slideNumber > numberOfSlides - 1)){
+        slideNumber = 0;
+    }
+    
+});
