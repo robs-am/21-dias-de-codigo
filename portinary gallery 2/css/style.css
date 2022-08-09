@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Marcellus", sans-serif;
+
+    --bg: #b9bdb61b;
+    --borderbg: rgba(51, 50, 50, 0.041);
+    --tPagina: rgba(87, 82, 82, 0.783);
+    --navbg: rgba(135, 134, 134, 0.041);
+    --link: #9ba098;
+    --linkHover: rgba(214, 212, 212, 0.406);
 }
 
 body {
@@ -12,11 +19,7 @@ body {
     
 }
 
-.dark-mode {
-    background-color: black;
-    color: white;
 
-}
 
 main {
     width: 1000px;
@@ -30,18 +33,19 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background: #b9bdb61b;
-    border: 1px solid rgba(51, 50, 50, 0.041);
+    background: var(--bg);
+    border: 1px solid var(--borderbg);
+
 }
 
 .tituloPagina {
     text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
-    color: rgba(87, 82, 82, 0.783);
+    color: var(--tPagina);
     
 }
 .nav {
     
-    background:rgba(135, 134, 134, 0.041);
+    background: var(--navbg);
     padding: 1em 6.2em;
     border-top: 2px solid  rgba(84, 84, 84, 0.041);
     border-bottom: 0.2px inset  rgba(84, 84, 84, 0.041);
@@ -61,11 +65,11 @@ main {
 
 a:link {
     text-decoration: none;
-    color:#9ba098;
+    color:var(--link)
 }
 
 a:hover {
-    background:  rgba(214, 212, 212, 0.406);
+    background: var(--linkHover);
     padding: 1em 0.5em;
     border-top: 1px inset rgba(222, 221, 221, 0.342);
     border-bottom: 1px inset rgba(222, 221, 221, 0.342);
@@ -122,7 +126,7 @@ a:visited {
     color: rgb(251, 247, 247);
     background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(14, 14, 14, 0.162));
     width: 100%;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(6px);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     transform: translateY(280%);
