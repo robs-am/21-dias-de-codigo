@@ -19,7 +19,14 @@ tema.addEventListener('click', () => {
     }
 })
 
+//IMAGE SLIDER//
+
 const nextBtn = document.querySelector(".next-btn");
 const prevBtn = document.querySelector(".prev-btn");
 const slides = document.querySelectorAll(".slide");
 const slideIcons = document.querySelectorAll(".slide-icon");
+const numberOfSlides = slides.length;
+var slideNumber = 0;
+
+//IMAGE SLIDER NEXT BUTTON//
+
