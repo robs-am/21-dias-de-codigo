@@ -36,5 +36,9 @@ nextBtn.addEventListener("click", () => {
     if(slideNumber > numberOfSlides - 1)){
         slideNumber = 0;
     }
-    
+
+    slides[slideNumber].classList.add("active");
+    slides[slideNumber].classList.add("active");
+
+
 });
