@@ -12,6 +12,12 @@ body {
     
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+
+}
+
 main {
     width: 1000px;
     height: 100vh;
