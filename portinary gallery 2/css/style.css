@@ -9,7 +9,7 @@
     --tPagina: rgba(87, 82, 82, 0.783);
     --navbg: rgba(135, 134, 134, 0.041);
     --link: #9ba098;
-    --linkHover: rgba(214, 212, 212, 0.406);
+    --linkBgHover: rgba(214, 212, 212, 0.406);
 }
 
 body {
@@ -65,11 +65,11 @@ main {
 
 a:link {
     text-decoration: none;
-    color:var(--link)
+    color:var(--link);
 }
 
 a:hover {
-    background: var(--linkHover);
+    background: var(--linkBgHover);
     padding: 1em 0.5em;
     border-top: 1px inset rgba(222, 221, 221, 0.342);
     border-bottom: 1px inset rgba(222, 221, 221, 0.342);
@@ -78,8 +78,50 @@ a:hover {
 }
 
 a:visited {
-    color: none;
+    color:initial;
   }
+
+  input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 45px;
+    height: 20px;
+    background: rgb(202, 197, 197);
+    float: right;
+    border-radius: 100px;
+    position: relative;
+}
+
+label::after{
+    content: '';
+    position: absolute;
+    
+    left: 0.5px;
+    width: 25px;
+    height: 20px;
+    background-color: white;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+input:checked + label {
+    background-color: var(--color-headings);
+}
+
+input:checked + label::after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+label:active:after {
+    width: 45px;
+}
 
 .slider {
 
