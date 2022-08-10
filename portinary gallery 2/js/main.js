@@ -12,6 +12,10 @@ var slideNumber = 0;
 //IMAGE SLIDER NEXT BUTTON//
 
 nextBtn.addEventListener("click", () => {
+    slides.forEach((slide) => {
+        slide.classList.remove("active");
+    });
+
     slideNumber++;
 
     if(slideNumber > (numberOfSlides - 1)){
