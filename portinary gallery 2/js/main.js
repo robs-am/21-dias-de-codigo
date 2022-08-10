@@ -15,8 +15,8 @@ nextBtn.addEventListener("click", () => {
     slides.forEach((slide) => {
         slide.classList.remove("active");
     });
-    slideIcons.forEach((slide) => {
-        slide.classList.remove("active");
+    slideIcons.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
     });
 
     slideNumber++;
