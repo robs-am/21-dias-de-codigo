@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Marcellus", sans-serif;
+    overflow: hidden;
 
     --bg: #b9bdb61b;
     --borderbg: rgba(51, 50, 50, 0.041);
@@ -16,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #24252424;
+    background: #7f837f24;
     
 }
 
