@@ -30,9 +30,14 @@ body {
 
 
 .tituloPagina {
+    letter-spacing: 0.3em;
     padding-block: 1em;
     text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
     color: var(--tPagina);
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
     
 }
 .nav {
