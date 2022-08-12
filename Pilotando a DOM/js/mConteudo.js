@@ -34,7 +34,10 @@
 //atributos
 
 const header = document.querySelector('header')
-header.setAttribute('id', 'header') //adicionara uma tributo id no header
+header.setAttribute('id', 'header') //seta o novo atributo a uma tag
 
 const headerID = document.querySelector('#header')
-console.log(headerID.getAttribute('id'))
+console.log(headerID.getAttribute('id'))  //adiciona o atributo
+
+header.removeAttribute('id')
+header.removeAttribute('class') //remove os atributos adicionados anteriormente
