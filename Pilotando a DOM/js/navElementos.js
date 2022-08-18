@@ -6,13 +6,10 @@
 const body = document.querySelector('body')
 
 console.log(body.element.Node) */
-
-
-
 //childNodes children
 
-const el = document.querySelector('body')
-console.log(el.childNodes)
+//const el = document.querySelector('body')
+//console.log(el.childNodes)
 
 
 //firstChild firstElementChild - firstChild leva em consideração espaços vazios, Element no então desconsidera-os.
@@ -23,7 +20,13 @@ console.log(el.childNodes)
 //console.log(el.lastChild)
 
 
+
 //nextSibling nextElementSibling
+const el = document.querySelector('header')
+console.log(el.nextSibling)
+
+
+//previousSibling previousElementSibling
 
 
 
