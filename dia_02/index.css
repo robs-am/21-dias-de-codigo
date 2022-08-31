@@ -10,30 +10,32 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
+
+    background: radial-gradient(#faf7f7, #324246b4)
+} 
 
 
 
 #type {
     
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 300;
     letter-spacing: 10px;
     
 }
 
-#typewrite {
+#type {
     position: relative;
 }
 
-#typewrite::after {
+#type::after {
     content: '';
     width: 0.8px;
-    border-right: 2px solid black;
+    border-right: 3px solid black;
     height: 100%;
     margin-left: 0.5rem;
-    animation: blink 1.2s infinite ease;
+    animation: blink 1.2s infinite;
+    
 }
 
 @keyframes blink {
