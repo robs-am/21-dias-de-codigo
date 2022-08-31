@@ -28,7 +28,20 @@ h1 {
 
 .typewrite::after {
     content: '';
-    width: 1px;
-    border-right: 5px solid black;
+    width: 0.8px;
+    border-right: 2px solid black;
     height: 100%;
+    margin-left: 0.5rem;
+    animation: blink 1.2s infinite ease;
+}
+
+@keyframes blink {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
