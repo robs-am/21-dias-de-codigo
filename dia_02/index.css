@@ -3,7 +3,17 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inconsolata', monospace;
+    
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+
 
 h1 {
     font-weight: 300;
