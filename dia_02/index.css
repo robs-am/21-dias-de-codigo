@@ -15,18 +15,19 @@ body {
 
 
 
-h1 {
+#type {
     
     font-size: 2rem;
     font-weight: 300;
     letter-spacing: 10px;
+    
 }
 
-.typewrite {
+#typewrite {
     position: relative;
 }
 
-.typewrite::after {
+#typewrite::after {
     content: '';
     width: 0.8px;
     border-right: 2px solid black;

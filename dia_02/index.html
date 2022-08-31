@@ -13,15 +13,22 @@
     <title>Hello, World!</title>
 </head>
 
+
+
 <body>
+    <p id="type"></p>
+    <script type="text/javascript">
+        var i = 0;
+        var txt = " Hello, World!";
+        var speed = 150;
 
-    
-
-        <h1 class="hello">Hello, World!&ZeroWidthSpace;</h1>
-        <h1 class="typewrite"></h1>
-
-    
-    <script src="/dia_02/main.js"></script>
-</body>
+        function type() {
+            document.getElementById("type").innerHTML += txt.charAt(i);
+            i++
+            setTimeout(type, speed);
+        }
+        type();
+    </script>
+    </body>
 
 </html>
