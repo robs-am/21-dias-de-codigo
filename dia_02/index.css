@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
     font-family: 'Inconsolata', monospace;
     
+    
     width: 100vw;
     height: 100vh;
 
@@ -12,7 +13,7 @@ body {
     justify-content: center;
 
     background:
-    radial-gradient(#ebf1fbfd,rgba(153, 185, 245, 0.774), #2f6fdeba); 
+    radial-gradient(#a0a3a808,rgba(140, 146, 237, 0.309),rgba(124, 167, 248, 0.655), #1167fcb9); 
     /* radial-gradient(#eae2fee3,rgba(153, 185, 245, 0.774), #2f6fdeba); */
     /* radial-gradient(#ebf1fbfd,rgba(153, 185, 245, 0.774), #2f6fdeba);  */
 } 
