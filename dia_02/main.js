@@ -1,17 +1,21 @@
 var i = 0;
 var txt = "Hello, World!";
-var speed = 145;
+var speed = 80;
+var delayInMilliseconds = 1000; 
+// segundos delay
 
 
-for (let index = 0; index < txt.length; index++) {
-	const element = [txt.length].index
-	function type() {
-	    document.getElementById("type").innerHTML+=txt.charAt(i);
-	    i++;
-	    setTimeout(type,speed);
+setTimeout( function() {
+
+	for (let index = 0; index < txt.length; index++) {
+		
+		function type() {
+			document.getElementById("type").innerHTML+=txt.charAt(i);
+			i++;
+			setTimeout(type,speed);
+		}
 	}
-}
 
-type();
+	type();
 
-
+} , delayInMilliseconds);
