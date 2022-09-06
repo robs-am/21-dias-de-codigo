@@ -13,7 +13,7 @@ body {
     justify-content: center;
 
     background:
-    linear-gradient(to bottom, rgba(11, 27, 248, 0.332),rgb(249, 249, 254),rgba(124, 167, 248, 0.854)); 
+    linear-gradient(to bottom, rgba(131, 138, 241, 0.642),rgba(249, 249, 254, 0.57),rgba(249, 249, 254, 0.57),rgba(102, 155, 253, 0.673)); 
     /* radial-gradient(#eae2fee3,rgba(153, 185, 245, 0.774), #2f6fdeba); */
     /* radial-gradient(#ebf1fbfd,rgba(153, 185, 245, 0.774), #2f6fdeba);  */
     /* linear-gradient(to bottom, rgba(124, 167, 248, 0.854),rgba(152, 158, 238, 0.176),rgba(124, 167, 248, 0.854)); */ 
