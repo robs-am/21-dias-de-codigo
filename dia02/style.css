@@ -12,8 +12,8 @@ body {
     align-items: center;
     justify-content: center;
 
-    background:
-    linear-gradient(to bottom, rgba(131, 138, 241, 0.642),rgba(249, 249, 254, 0.57),rgba(249, 249, 254, 0.57),rgba(102, 155, 253, 0.673)); 
+    
+    background: linear-gradient(to bottom, #7f7fd5b0, #86a8e7b9, #91eae4a5); 
     /* radial-gradient(#eae2fee3,rgba(153, 185, 245, 0.774), #2f6fdeba); */
     /* radial-gradient(#ebf1fbfd,rgba(153, 185, 245, 0.774), #2f6fdeba);  */
     /* linear-gradient(to bottom, rgba(124, 167, 248, 0.854),rgba(152, 158, 238, 0.176),rgba(124, 167, 248, 0.854)); */ 
@@ -30,7 +30,7 @@ body {
     letter-spacing: 10px;
     
     text-shadow: 0 2px 3px rgba(39, 39, 39, 0.335), 0 -1px 2px rgba(0, 0, 0, 0.2);
-    color: #2f2f2fa3;
+    color: #1f16344f;
 
     
     
