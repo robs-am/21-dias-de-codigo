@@ -12,6 +12,8 @@ body {
 
     width: 100%;
     height: 100vh;
+
+    perspective: 800px;
     
 }
 
@@ -42,5 +44,7 @@ body {
 .hover-side {
     color: white;
     background-color: #069;
+    
+    transform: rotateX(90deg);
 }
 
