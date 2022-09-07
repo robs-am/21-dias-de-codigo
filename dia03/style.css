@@ -16,11 +16,31 @@ body {
 }
 
 .btn {
+    position: relative;
     height: 150px;
     width: 450px;
 }
 
 .side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.default-side {
+    background-color: white;
+    border: 10px solid #069;
+    color: #069;
+}
+
+.hover-side {
+    color: white;
+    background-color: #069;
 }
 
