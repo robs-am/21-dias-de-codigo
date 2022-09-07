@@ -61,7 +61,7 @@ body {
 .hover-side {
     color: white;
     background-color:rgb(8, 8, 8);;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     border-radius: 10px;
     transform: rotateX(90deg) translateZ(75px);
 }
