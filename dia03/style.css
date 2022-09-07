@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 body {
@@ -14,6 +15,10 @@ body {
     height: 100vh;
 
     perspective: 800px;
+
+    background: linear-gradient(to bottom, #765eebdc, #7bc6cc);
+
+    cursor: pointer;
     
 }
 
@@ -45,9 +50,9 @@ body {
 
 .default-side {
     background-color: white;
-    border: 10px solid #069;
-    color: #069;
-
+    border: 10px solid rgb(8, 8, 8);
+    color: rgb(8, 8, 8);;
+    border-radius: 10px;
     transform: translateZ(75px);
 
     
@@ -55,8 +60,9 @@ body {
 
 .hover-side {
     color: white;
-    background-color: #069;
-    
+    background-color:rgb(8, 8, 8);;
+    letter-spacing: 2px;
+    border-radius: 10px;
     transform: rotateX(90deg) translateZ(75px);
 }
 

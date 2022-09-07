@@ -1,7 +1,7 @@
 var i = 0;
 var txt = "Hello, World!";
-var speed = 80;
-var delayInMilliseconds = 2000; 
+var speed = 40;
+var delayInMilliseconds = 1000; 
 // segundos delay
 
 
