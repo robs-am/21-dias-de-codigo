@@ -21,6 +21,12 @@ body {
     position: relative;
     height: 150px;
     width: 450px;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
+
+.btn:hover {
+    transform: rotateX(-90deg);
 }
 
 .side {
