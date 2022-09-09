@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    
+    
+}
+
+.container {
+    border: 1px solid black;
+    position: absolute;
+    top: 10%;
+    left:17%;
+    right:17%;
+    bottom:20%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
