@@ -1,10 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #111;
-    
+    font-family: 'Poppins', sans-serif;
+
 }
+
 html {
     background: linear-gradient(0.140turn, #baadfcdc, #9adade);
 }
@@ -12,17 +14,15 @@ html {
 body {
     display: flex;
     align-items: center;
-    justify-content:center;
-
+    justify-content: center;
     height: 100vh;
-     
-    
+
+
 }
 
 .container {
     border: 1px solid rgba(139, 138, 138, 0.302);
     background-color: aliceblue;
-    
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     width: 600px;
     height: 400px;
@@ -30,8 +30,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
-   
+
+
 }
 
 .sub-texto {
@@ -44,24 +44,44 @@ body {
 h1 {
     font-size: 9.5rem;
     letter-spacing: 8px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
-h2{
-    font-family:monospace;
-    font-size: 2em;
+h2 {
+    
+    font-size: 1.8em;
     max-width: 600px;
     text-align: center;
 }
 
 .indisponivel {
     padding-top: 0.6em;
-    font-family:monospace;
-    font-size: 1.4em;
+    
+    font-size: 1em;
     max-width: 500px;
-    text-align: center;
+    text-align: left;
     color: #313232;
+
+}
+
+.Home {
+    border: 2.5px solid #9adade8d;
+    text-decoration: none;    
+    width: 120px;
+    height: 44px;    
+    border-radius: 5px;
+    margin-top: 1em;
+    background-color:transparent;
+}   
+
+.Home:hover {
+    background-color: #9adade40;
+    cursor: pointer;
+    border: #0c0c0c;
     
 }
 
+a {
+    text-decoration: none;
+}
