@@ -34,11 +34,17 @@ html {
     outline: none;
     background-color: #111;
     color: #eee;
+    border: none;
 
   }
+
+  .grid-container > button:hover {
+    background-color: #292729f5;
+  }
+
  
   .grid-container > .operator {
-    background: #c7c5c582;
+    background: #1a1818f8;
   }
 
   .span-two {
@@ -59,7 +65,7 @@ html {
 
   .grid-container >.output {
     grid-column: 1 / -1;
-    background-color: rgba(34, 34, 34, 0.226);
+    background-color: rgba(111, 109, 109, 0.275);
     backdrop-filter: blur(45px);
     border-top-left-radius: 0.4em;
     border-top-right-radius: 0.4em;
