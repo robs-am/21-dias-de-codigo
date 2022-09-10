@@ -60,6 +60,26 @@ h1 {
     
 }
 
+.home-container {
+    border: 1px solid rgba(139, 138, 138, 0.302);
+    background-color: aliceblue;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.home-gato {
+    font-size: 4em;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.414);
+}
+
+
+
 h2 {
     
     font-size: 1.8em;
