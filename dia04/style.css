@@ -14,6 +14,7 @@ html {
     display: flex;
     height: 100vh;
     justify-content: center;
+    overflow-y: hidden;
   }
   
   .grid-container {
@@ -23,6 +24,7 @@ html {
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px,auto) repeat(5, 100px);
+    
   }
 
   .grid-container > button {
@@ -56,4 +58,15 @@ html {
 
   .grid-container >.output {
     grid-column: 1 / -1;
+    background-color: rgba(34, 34, 34, 0.226);
+    backdrop-filter: blur(45px);
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding:10px;
+    word-wrap: break-word;
+    word-break: break-all;
   }
