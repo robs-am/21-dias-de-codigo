@@ -39,7 +39,7 @@ html {
   }
 
   .span-two {
-    grid-column: span 1;
+    grid-column: span 2;
   }
 
   .grid-column >.output {
@@ -52,4 +52,8 @@ html {
     word-wrap:break-word;
     word-break: break-all;
 
+  }
+
+  .grid-container >.output {
+    grid-column: 1 / -1;
   }
