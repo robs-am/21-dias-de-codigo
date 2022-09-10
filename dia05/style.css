@@ -28,13 +28,22 @@ body {
     height: 600px;
     display: flex;
     align-items:center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
      
 }
 
+.error-404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 
-
+.spaceship {
+    width: 250px;
+    transform: rotate(15deg);
+}
 
 .sub-texto {
     display: flex;
