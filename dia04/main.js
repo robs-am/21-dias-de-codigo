@@ -17,4 +17,20 @@ class Calculator {
         this.previousOperandTextElement = '';
         this.operation = undefined;
     }
+
+    updateDisplay(){
+        this.currentOperandTextElement = this.previousOperand;
+        this.previousOperandTextElement = this.currentOperand;
+        
+    }
 }
+
+const calculator = new Calculator(
+    previousOperandTextElement,
+    currentOperandTextElement
+);
+
+allClearButton.addEventListener('click', () =>  {
+    this.clear();
+    this.updateDisplay()
+})
