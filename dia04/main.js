@@ -1,26 +1,27 @@
-const numberButtons = document.querySelectorAll('[data-number]')
-const operationButtons = document.querySelectorAll('[data-operator]')
-const equalsButton = document.querySelectorAll('[data-equals]')
-const deleteButton = document.querySelectorAll('[data-delete]')
-const allClearButton = document.querySelectorAll('[data-all-clear]')
-const previousOperandTextElement = document.querySelectorAll('[data-previous-operand]')
-const currentOperandTextElement = document.querySelectorAll('[data-current-operand]')
+const numberButtons = document.querySelectorAll('[data-number]');
+const operationButtons = document.querySelectorAll('[data-operator]');
+const equalsButton = document.querySelector('[data-equals]');
+const deleteButton = document.querySelector('[data-delete]');
+const allClearButton = document.querySelector('[data-all-clear]');
+const previousOperandTextElement = document.querySelector('[data-previous-operand]');
+const currentOperandTextElement = document.querySelector('[data-current-operand]');
 
 class Calculator {
     constructor(previousOperandTextElement, currentOperandTextElement) {
         this.previousOperandTextElement = previousOperandTextElement;
         this.currentOperandTextElement = currentOperandTextElement;
+        
     }
     
     clear(){
-        this.currentOperandTextElement = '';
-        this.previousOperandTextElement = '';
+        this.currentOperand = "";
+        this.previousOperand = "";
         this.operation = undefined;
     }
 
     updateDisplay(){
-        this.currentOperandTextElement.innerText = this.previousOperand;
-        this.previousOperandTextElement.innerText = this.currentOperand;
+        this.currentOperandTextElement.innerText = this.currentOperand;
+        this.previousOperandTextElement.innerText = this.previousOperand;
         
     }
 }
@@ -32,5 +33,5 @@ const calculator = new Calculator(
 
 allClearButton.addEventListener('click', () =>  {
     calculator.clear();
-    calculator.updateDisplay()
+    calculator.updateDisplay();
 })
