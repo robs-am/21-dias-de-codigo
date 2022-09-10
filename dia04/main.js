@@ -31,6 +31,6 @@ const calculator = new Calculator(
 );
 
 allClearButton.addEventListener('click', () =>  {
-    this.clear();
-    this.updateDisplay()
+    calculator.clear();
+    calculator.updateDisplay()
 })
