@@ -9,23 +9,28 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background: linear-gradient(0.140turn, #baadfcdc, #9adade);
 }
 
 .container {
-    width: 80vw;
+    width: 70vw;
     height: 70%;
-    border: 1px solid black;
-
-    
-
-
-
+    border: 1px solid rgba(162, 160, 160, 0.29);
+    background-color: aliceblue;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .esquerda {
+    width:350px;
+}
 
+.meninaPraia {
+    width: 350px;
 }
 
 .direita {
-
+    width: 350px;
 }
