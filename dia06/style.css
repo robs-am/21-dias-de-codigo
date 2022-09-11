@@ -13,24 +13,36 @@ body {
 }
 
 .container {
-    width: 70vw;
-    height: 70%;
+    width: 60vw;
+    min-width: 600px;
+    height: 60%;
     border: 1px solid rgba(162, 160, 160, 0.29);
-    background-color: aliceblue;
+    
     border-radius: 0.5em;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    
 }
 
 .esquerda {
-    width:350px;
+    width:456px;
+    height:456px;
+    background-color: aliceblue;
+    
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
 }
 
 .meninaPraia {
     width: 350px;
+    height: 350px;
 }
 
 .direita {
-    width: 350px;
+    
+    background: rgba(255,255,255,0.15);
+    width:456px;
+    height:456px;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
 }
