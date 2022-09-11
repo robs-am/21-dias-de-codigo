@@ -16,10 +16,21 @@ class Calculator {
     this.currentOperandTextElement = currentOperandTextElement;
     this.clear();
   }
+  
+  calculate() {
+    let result;
 
+    const previousOperand = parseFloat(this.previousOperand);
+    const currentOperand = parseFloat(this.currentOperand);
+
+  }
+  
   chooseOperation(operation) {
-    this.operation = operation;
+    if(this.previousOperand != '')  {
+      this.calculate()
+    }
 
+       this.operation = operation;
     this.previousOperand = `${this.currentOperand} ${this.operation}`;
     this.currentOperand = "";
   }
