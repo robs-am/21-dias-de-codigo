@@ -10,8 +10,8 @@
 ✔ Dia 01: Criando o repositório<br>
 ✔ Dia 02: Famoso "Hello World" com HTML e CSS<br>
 ✔ Dia 03: Botão Animado - 3D Rotation<br>
-  Dia 04: Calculadora<br>
-  Dia 05: Página de erro 404<br>
+✔ Dia 04: Calculadora<br>
+✔ Dia 05: Página de erro 404<br>
   Dia 06: Efeito Glassmorphism<br>
   Dia 07: Contador regressivo em Javascript<br>
   Dia 08: Toggle que altera o tema de uma página entre Light e Dark mode<br>
