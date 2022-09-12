@@ -12,8 +12,8 @@
 ✔ Dia 03: Botão Animado - 3D Rotation<br>
 ✔ Dia 04: Calculadora<br>
 ✔ Dia 05: Página de erro 404<br>
-  Dia 06: Efeito Glassmorphism<br>
-  Dia 07: Contador regressivo em Javascript<br>
+✔ Dia 06: Efeito Glassmorphism<br>
+✔ Dia 07: Contador regressivo em Javascript<br>
   Dia 08: Toggle que altera o tema de uma página entre Light e Dark mode<br>
   Dia 09: Loading<br>
   Dia 10: Uso da biblioteca Particle.js<br>
