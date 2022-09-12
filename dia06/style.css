@@ -10,39 +10,87 @@ body {
     justify-content: center;
     height: 100vh;
     background: linear-gradient(0.140turn, #baadfcdc, #9adade);
+    font-family: 'Inconsolata', monospace;
 }
 
 .container {
-    width: 60vw;
-    min-width: 600px;
-    height: 60%;
-    border: 1px solid rgba(162, 160, 160, 0.29);
+    width:500px;
+    min-width: 400px;
     
-    border-radius: 0.5em;
+    height: 500px;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
     display: flex;
     align-items: center;
+    flex-direction: column-reverse;
     
 }
 
 .esquerda {
-    width:456px;
-    height:456px;
-    background-color: aliceblue;
+    margin: 0px auto;
+    width:500px;
+    height: 300px;
+    min-width: 400px;
     
-    border-top-left-radius: 0.5em;
+    
+    background: linear-gradient(to top,rgba(255, 255, 255, 0.664) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(255,255,255,0.15));
     border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .meninaPraia {
-    width: 350px;
-    height: 350px;
+    width: 280px;
+    height: 280px;
+    
 }
 
 .direita {
-    
+    margin: 0px auto;
+    min-width: 400px;
     background: rgba(255,255,255,0.15);
-    width:456px;
-    height:456px;
+    backdrop-filter: blur(45px);
+    width:500px;
+    height: 200px;
     border-top-right-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+    
+    
 }
+
+
+
+
+
+#countdown_dashboard p { 
+    font-size:40px; 
+    font-weight:bold;
+    color:#394043; 
+    margin: 0px; 
+    text-align: center; }
+
+    #countdown_dashboard .dashp { 
+        border:1px inset #a7b3be22; 
+        background-color: rgba(213, 222, 238, 0.535);
+        float:left; 
+        margin: 0 10px 0 0; 
+        backdrop-filter: blur(45px);
+        width:80px; 
+        height: 60px; 
+        padding: 2.5em;  
+        border-radius: 15px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+        
