@@ -17,9 +17,9 @@ body {
     width:500px;
     min-width: 400px;
     
-    height: 500px;
+    height: 450px;
     
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
     
     display: flex;
     align-items: center;
@@ -32,9 +32,11 @@ body {
     width:500px;
     height: 300px;
     min-width: 400px;
+    backdrop-filter: blur(150px);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     
     
-    background: linear-gradient(to top,rgba(255, 255, 255, 0.664) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(255,255,255,0.15));
+    background: linear-gradient(to top,rgba(255, 255, 255, 0.664) 5%, rgba(255, 255, 255, 0.5) 40%, rgba(255,255,255,0.15));
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
     display: flex;
@@ -44,8 +46,8 @@ body {
 }
 
 .meninaPraia {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     
 }
 
@@ -53,21 +55,20 @@ body {
     margin: 0px auto;
     min-width: 400px;
     background: rgba(255,255,255,0.15);
-    backdrop-filter: blur(45px);
+    backdrop-filter: blur(150px);
     width:500px;
-    height: 200px;
+    height: 150px;
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
     display: flex;
     align-items: center;
     justify-content:center;
+    
+    
    
     
     
 }
-
-
-
 
 
 #countdown_dashboard p { 

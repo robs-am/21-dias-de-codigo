@@ -1,15 +1,18 @@
 function countdown(){
     var now = new Date();
-                //  data do evento
+   
+    //  data do evento
     var eventDate = new Date("Oct 10, 2022 00:00:00");
     var currentTiime = now.getTime();
     var eventTime = eventDate.getTime();
     var remTime = eventTime - currentTiime;
+    
     // dia, hora, minuto e segundo
       var d = Math.floor(remTime / (1000 * 60 * 60 * 24));
       var h = Math.floor((remTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var m = Math.floor((remTime % (1000 * 60 * 60)) / (1000 * 60));
       var s = Math.floor((remTime % (1000 * 60)) / 1000);
+      
     document.getElementById("days").textContent = d;
     document.getElementById("days").innerText = d;
     document.getElementById("hours").textContent = h;
