@@ -43,6 +43,11 @@ nav {
 
 }
 
+#lampadas {
+  width: 700px;
+  height: 700px;
+  filter: saturate(110%);
+}
 
 li {
     list-style: none;
@@ -61,7 +66,8 @@ li {
     display: flex;
     align-items: center;
     padding: 5px;
-    transition: all .5s ease-in-out;
+    transition: all 10ms ease-in-out;
+    
     cursor: pointer;
   }
   
