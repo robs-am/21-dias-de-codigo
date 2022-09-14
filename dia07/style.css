@@ -1,46 +1,54 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    --bgcLight: #f5efed;
-    --switchLight: #2292a4;
-    --navLight: #0f0a0a;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --bgcLight: #f5efed;
+  --switchLight: #2292a4;
+  --navLight: #0f0a0a;
 }
 
 body {
-    background-color: var(--bgcLight);
-    overflow-y: hidden;
-    overflow-x: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  background-color: var(--bgcLight);
+  background-image: url("/dia07/img/lampadaA.png");
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
 }
 
 body.dark {
-    background-color: var(--navLight);
+  background-image: url(/dia07/img/lampadaD.png);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--navLight);
+  background-repeat: no-repeat;
 }
 
 body.dark nav {
-    background-color: #343434;
+  background-color: #343434;
 }
 
 body.dark #chk:checked ~ .switch {
-    background-color: #4b3f72;
+  background-color: #4b3f72;
 }
 
 nav {
-    background-color: var(--navLight);
-    color: #ffffff;
-    width: 100vw;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    flex-direction: row;
-    
-    
-
+  background-color: var(--navLight);
+  color: #ffffff;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 #lampadas {
@@ -50,40 +58,36 @@ nav {
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 #chk {
-    display: none;
-  }
-  
-  .switch {
-    position: relative;
-    background-color:var(--switchLight);
-    width: 100px;
-    height: 35px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    transition: all 10ms ease-in-out;
-    
-    cursor: pointer;
-  }
-  
-  .slider {
-    position: absolute;
-    background-color: white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    transition: all .5s ease-in-out;
-  }
-  
-  /* #chk:checked ~ .switch {
-    background-color: blueviolet;
-  } */
-  
-  #chk:checked ~ .switch .slider {
-    transform: translateX(60px);
-  }
+  display: none;
+}
+
+.switch {
+  position: relative;
+  background-color: var(--switchLight);
+  width: 100px;
+  height: 35px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  transition: all 10ms ease-in-out;
+
+  cursor: pointer;
+}
+
+.slider {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+#chk:checked ~ .switch .slider {
+  transform: translateX(60px);
+}
