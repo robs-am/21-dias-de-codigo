@@ -9,6 +9,24 @@
 
 body {
     background-color: var(--bgcLight);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body.dark {
+    background-color: var(--navLight);
+}
+
+body.dark nav {
+    background-color: #343434;
+}
+
+body.dark #chk:checked ~ .switch {
+    background-color: #4b3f72;
 }
 
 nav {
@@ -24,6 +42,7 @@ nav {
     
 
 }
+
 
 li {
     list-style: none;
@@ -55,9 +74,9 @@ li {
     transition: all .5s ease-in-out;
   }
   
-  #chk:checked ~ .switch {
+  /* #chk:checked ~ .switch {
     background-color: blueviolet;
-  }
+  } */
   
   #chk:checked ~ .switch .slider {
     transform: translateX(60px);
