@@ -10,7 +10,7 @@
 body {
   background-color: var(--bgcLight);
   background-image: url("/dia07/img/lampadaA.png");
-  background-size: 700px;
+  background-size: 500px;
   background-repeat: no-repeat;
   background-position: center;
   width: 100vw;
@@ -24,8 +24,11 @@ body {
 }
 
 body.dark {
-  background-image: url(/dia07/img/lampadaD.png);
-  background-size: 700px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/dia07/img/lampadaD.png");
+  filter: ;
+  background-size: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--navLight);
