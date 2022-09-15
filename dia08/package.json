@@ -1,0 +1,23 @@
+{
+  "name": "21-dias-de-codigo",
+  "version": "1.0.0",
+  "description": "✔ Dia 01: Criando o repositório<br>\r ✔ Dia 02: Famoso \"Hello World\" com HTML e CSS<br>\r ✔ Dia 03: Botão Animado - 3D Rotation<br>\r ✔ Dia 04: Calculadora<br>\r ✔ Dia 05: Página de erro 404<br>\r ✔ Dia 06: Efeito Glassmorphism<br>\r ✔ Dia 07: Contador regressivo em Javascript<br>\r ✔ Dia 08: Toggle que altera o tema de uma página entre Light e Dark mode<br>\r   Dia 09: Loading<br>\r   Dia 10: Uso da biblioteca Particle.js<br>\r   Dia 11: Tela de Login<br>\r   Dia 12: Galeria<br>\r   Dia 13: Menu responsivo<br>\r   Dia 14: Quiz House of Dragons<br>\r   Dia 15: E-commerce<br>\r   Dia 16: Consumindo uma API pública<br>\r   Dia 17: Capturando eventos do teclado<br>\r   Dia 18: Gerador de senha<br>\r   Dia 19: Listando imagens de uma API pública | Random Dog Image<br>\r   Dia 20: Copy Emoji to Clipboard<br>\r   Dia 21: ...<br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robs-am/21-dias-de-codigo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robs-am/21-dias-de-codigo/issues"
+  },
+  "homepage": "https://github.com/robs-am/21-dias-de-codigo#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
