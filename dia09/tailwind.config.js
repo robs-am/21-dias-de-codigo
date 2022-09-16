@@ -6,7 +6,15 @@ module.exports = {
     colors: {
       base_purple: "#baadfcdc",
       base_green: "#9adade",
+      backdropFilter: {
+        'none': 'none',
+        'blur': 'blur(20px)',
+    
     },
     
   },
-};
+  plugins: [
+    require('tailwindcss-filters'),
+  ],
+},
+}
