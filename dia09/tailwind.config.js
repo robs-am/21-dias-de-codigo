@@ -3,10 +3,10 @@ module.exports = {
   content: ["./public/**/*.html"],
   theme: {
     extend: {},
-    colors: { 
-       "base_purple":"#baadfcdc",
-        "base_green":"#9adade"
+    colors: {
+      base_purple: "#baadfcdc",
+      base_green: "#9adade",
+    },
+    
   },
-  
-}
-}
+};
