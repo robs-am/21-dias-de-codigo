@@ -11,62 +11,61 @@
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
-  <body
+  
+  <body id="particles-js"
     class="w-screen h-screen flex justify-center items-center bg-cover bg-center"
     style="background-image: url('/dia09/public/bgPurple.jpg')"
-  ><!-- particles.js container -->
-<div id="particles-js"></div>
-
-<script>
-  particleJs.load('particles-js', 'particles.json', function(){
-    console.log('particles.json loaded...')
-  });
-</script>
+  >
+  <!-- particles.js container -->
+  <div ></div>
 
 
-    <section
-      class="section  overflow-hidden shadow-lg text-white bg-slate-900  bg-opacity-80 backdrop-filter backdrop-blur-lg min-h-300 w-80 h-3/5 p-7 m-7 rounded-xl   border border-violet-400"
-      style="backdrop-filter: blur(20px)"
-    >
-      <div class="container h-2/5 flex justify-around items-center flex-col">
-        <label class="block flex mr-36 text-gray-700 text-lg  mb-2" for="username">
-            Username
+          <script src="/dia09/js/particles.js"></script>
+          <script src="/dia09/js/app.js"></script>
+
+      <section
+        class="section  overflow-hidden shadow-lg text-white bg-slate-900  bg-opacity-80 backdrop-filter backdrop-blur-lg min-h-300 w-80 h-3/5 p-7 m-7 rounded-xl   border border-violet-400"
+        style="backdrop-filter: blur(20px)"
+      >
+        <div class="container h-2/5 flex justify-around items-center flex-col">
+          <label class="block flex mr-36 text-gray-700 text-lg  mb-2" for="username">
+              Username
+            </label>
+          <input
+            class="border shadow-md border-zinc-800 bg-indigo-800 bg-opacity-10 rounded-xl w-full h-10 placeholder: pl-1"
+            type="text"
+            placeholder="  Username"
+            name="uname"
+            required
+          />
+
+          <label for="psw"></label>
+          <input
+            class="password border border-neutral-800 bg-indigo-400 bg-opacity-5 rounded-xl w-full h-10 placeholder: pl-1"
+            type="password"
+            placeholder="  ********"
+            name="psw"
+            required
+          />
+        </div>
+
+        <div class="flex-col flex justify-evenly items-center my-4 h-2/5">
+          <button
+            class="text-slate-200 bg-indigo-900 border-2 border-violet-400 hover:border-violet-600 hover:bg-indigo-900 hover:text-slate-200 font-semibold w-8/12 h-12 mt-4 rounded-xl"
+            type="submit"
+          >
+            Login
+          </button>
+          <label >
+            <input class="checked:bg-blue-500"  type="checkbox" checked="checked" name="remember" />
+            Remember me
           </label>
-        <input
-          class="border shadow-md border-zinc-800 bg-indigo-800 bg-opacity-10 rounded-xl w-full h-10 placeholder: pl-1"
-          type="text"
-          placeholder="  Username"
-          name="uname"
-          required
-        />
-
-        <label for="psw"></label>
-        <input
-          class="password border border-neutral-800 bg-indigo-400 bg-opacity-5 rounded-xl w-full h-10 placeholder: pl-1"
-          type="password"
-          placeholder="  ********"
-          name="psw"
-          required
-        />
+          <a class="inline-block align-center justify-center font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
+              Forgot Password?
+            </a>
+          </section>  -
+        </div>
       </div>
-
-      <div class="flex-col flex justify-evenly items-center my-4 h-2/5">
-        <button
-          class="text-slate-200 bg-indigo-900 border-2 border-violet-400 hover:border-violet-600 hover:bg-indigo-900 hover:text-slate-200 font-semibold w-8/12 h-12 mt-4 rounded-xl"
-          type="submit"
-        >
-          Login
-        </button>
-        <label >
-          <input class="checked:bg-blue-500"  type="checkbox" checked="checked" name="remember" />
-          Remember me
-        </label>
-        <a class="inline-block align-center justify-center font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
-            Forgot Password?
-          </a>
-        </section>  
-    
-    </div>
-    <script src="particles.js"></script>
+    </div>    
   </body>
 </html>
