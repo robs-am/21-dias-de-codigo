@@ -15,9 +15,9 @@
 ✔ Dia 06: Efeito Glassmorphism<br>
 ✔ Dia 07: Contador regressivo em Javascript<br>
 ✔ Dia 08: Toggle que altera o tema de uma página entre Light e Dark mode<br>
-  Dia 09: Loading<br>
-  Dia 10: Uso da biblioteca Particle.js<br>
-  Dia 11: Tela de Login<br>
+✔ Dia 09: Loading<br>
+✔ Dia 10: Uso da biblioteca Particle.js<br>
+✔ Dia 11: Tela de Login<br>
   Dia 12: Galeria<br>
   Dia 13: Menu responsivo<br>
   Dia 14: Quiz House of Dragons<br>
