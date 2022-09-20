@@ -1,91 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="/dia09/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <title>Document</title>
-  <script src="https://kit.fontawesome.com/8f2ac59b5f.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-zinc-900">
 
-<body id="particles-js" class="w-screen h-screen flex justify-center items-center bg-cover bg-center"
-  style="background-image: url('/dia09/public/bgPurple.jpg')">
-  <!-- particles.js container -->
-
-
-
-  <script src="/dia09/js/particles.js"></script>
-  <script src="/dia09/js/app.js"></script>
-
-  <script>particlesJS.load('particles-js', 'particles.json', function () {
-      console.log('particles.js loaded - callback');
-    });</script>
-
-  <section
-    class="section  absolute overflow shadow-lg text-white bg-slate-900  bg-opacity-80 backdrop-filter backdrop-blur-lg min-h-600 w-96   p-7 m-7 rounded-xl   border border-violet-400"
-    style="backdrop-filter: blur(20px)">
-    <div class="container h-60 flex justify-between items-center flex-col">
-
-
-      <h1 class="text-lg font-bold mb-2">Sign-In</h1>
-
-
-      <input
-        class="border shadow-md border-zinc-800 bg-indigo-800 bg-opacity-10 rounded-xl w-full h-10 placeholder: pl-1"
-        type="text" placeholder="  Username" name="uname" required />
-
-
-      <label for="psw"></label>
-      <input
-        class="password border border-neutral-800 bg-indigo-800 bg-opacity-5 rounded-xl w-full h-10 placeholder: pl-1"
-        type="password" placeholder="  ********" name="psw" required />
-      
-      <button
-        class="text-slate-200 bg-violet-700 border-2 border-violet-400 hover:border-violet-600 hover:bg-violet-900 hover:text-slate-200 font-semibold w-8/12 h-12 mt-4  rounded-xl"
-        type="submit">
-        Login
-      </button>
-
-    </div>
-
-    <div class="flex-col flex justify-evenly items-center  h-16">
-
-      <label class="">
-        <input class=" checked:bg-blue-500" type="checkbox" checked="checked" name="remember" />
-        <div class="inline-block text-sm text-slate-400">Remember me</div>
-      </label>
-      <a class="inline-block align-center justify-center font-semibold text-sm text-slate-400 hover:text-slate-600"
-        href="#">
-        Forgot Password?
-      </a>
-
-
-    </div>
-    <div class="flex justify-around items-center flex-col h-32 mt-4">
-
-      <button
-        class="flex items-center text-slate-200 bg-slate-800 border-2 border-violet-400 hover:border-violet-600 hover:bg-indigo-900 hover:text-slate-200 font-regular w-6/12 h-12  rounded-xl"
-        type="submit">
-        <i class="ml-2 w-7  fa-brands fa-google fa flex justify-between items-center"></i>
-        <div class="w-30  text-xs font-semibold ">Sign in with Google</div>
-      </button>
-
-      <button
-        class="flex items-center text-slate-200 bg-slate-800 border-2 border-violet-400 hover:border-violet-600 hover:bg-indigo-900 hover:text-slate-200 font-regular w-6/12 h-12  rounded-xl"
-        type="submit">
-        <i class="ml-2 w-7  fa-brands  fa-steam fa-lg flex justify-between items-center"></i>
-        <div class="w-30  text-xs font-semibold ">Sign in with Steam</div>
-      </button>
-    </div>
-  </section>
-
-  </div>
+<div class="flex items-center justify-center h-screen">
+    <h1 class="text-2xl text-slate-50 absolute animate-pulse ease-in-out">Loading</h1>
+    <div class="bg-neutral-900 bg-opacity-70 h-36 w-36 border-8
+    border-l-zinc-800
+    border-r-zinc-800
+    border-b-zinc-800
+    border-t-indigo-500 
+    motion-safe:animate-spin
+    ease-linear
+    rounded-full
+    
+    "></div>
+    
+</div>
 </body>
-
 </html>

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(0.140turn, #baadfcdc, #9adade);
+    font-family: 'Inconsolata', monospace;
+}
+
+.container {
+    width:500px;
+    min-width: 400px;
+    
+    height: 450px;
+    
+    
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    
+}
+
+.esquerda {
+    margin: 0px auto;
+    width:500px;
+    height: 300px;
+    min-width: 400px;
+    backdrop-filter: blur(150px);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+    
+    background: linear-gradient(to top,rgba(255, 255, 255, 0.664) 5%, rgba(255, 255, 255, 0.5) 40%, rgba(255,255,255,0.15));
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.meninaPraia {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.direita {
+    margin: 0px auto;
+    min-width: 400px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(150px);
+    width:500px;
+    height: 150px;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    
+   
+    
+    
+}
+
+
+#countdown_dashboard p { 
+    font-size:40px; 
+    font-weight:bold;
+    color:#394043; 
+    margin: 0px; 
+    text-align: center; }
+
+    #countdown_dashboard .dashp { 
+        border:1px inset #a7b3be22; 
+        background-color: rgba(213, 222, 238, 0.535);
+        float:left; 
+        margin: 0 10px 0 0; 
+        backdrop-filter: blur(45px);
+        width:80px; 
+        height: 60px; 
+        padding: 2.5em;  
+        border-radius: 15px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+        
