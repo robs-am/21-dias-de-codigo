@@ -1,26 +1,37 @@
+html {
+    display: flex;
+    justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #0d0d0fec;
+}
+
 .item {
-    min-height: 20rem;
-    min-width:25rem;
-    
-    padding: 10px;
+  min-height: 20rem;
+  min-width: 30rem;
+
+  padding: 15px;
 }
 
 .item img {
-    width: 100%;
-    height: 100%;
-    border-radius: 2rem;
-  
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  pointer-events: none;
 }
 
 .inner-carousel {
-    display: flex;
-    background: lightblue;
-    overflow: hidden;
-    overflow-y: hidden;
+  display: flex;
+  
+  background: #000000df;
 }
 
+
 .carousel {
-    cursor: grab;
-    overflow-y: hidden;
-    background: rgb(211, 170, 18);
+  cursor: grab;
+  background: rgba(173, 213, 230, 0.519);
+  overflow: hidden;
+  border-radius: 0.5rem;
+  width:100vw;
 }
