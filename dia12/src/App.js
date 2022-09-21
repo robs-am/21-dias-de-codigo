@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 //eslint-disable-next-line
 import { useRef, useEffect, useState} from "react";
 import images from "./images";
+import { duration } from "@material-ui/core";
 
 
 
@@ -17,6 +18,10 @@ function App() {
 
   return (
     <div className='App'>
+      
+        
+      
+      
       <motion.div ref={carousel} className="carousel" whileTap={{cursor:"grabbing"}}>
         <motion.div 
         drag= "x" 

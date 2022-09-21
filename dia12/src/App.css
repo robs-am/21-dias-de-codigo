@@ -1,21 +1,23 @@
 html {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
-  height: 100vh;
+  
   overflow: hidden;
-  background-color: #0d0d0fec;
+  background-color:  #040f16;
 }
+
 
 .item {
   min-height: 20rem;
   min-width: 30rem;
 
-  padding: 15px;
+  padding: 18px;
 }
 
 .item img {
-  width: 100%;
+  width: 95%;
   height: 100%;
   border-radius: 2rem;
   pointer-events: none;
@@ -24,14 +26,14 @@ html {
 .inner-carousel {
   display: flex;
   
-  background: #000000df;
+  
+  background: #040f16;
 }
-
 
 .carousel {
   cursor: grab;
-  background: rgba(173, 213, 230, 0.519);
+  background: #040f16;
   overflow: hidden;
-  border-radius: 0.5rem;
-  width:100vw;
+  
+  width: 100vw;
 }
