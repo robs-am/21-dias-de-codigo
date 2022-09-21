@@ -18,7 +18,7 @@
 ✔ Dia 09: Loading<br>
 ✔ Dia 10: Uso da biblioteca Particle.js<br>
 ✔ Dia 11: Tela de Login<br>
-  Dia 12: Galeria<br>
+✔ Dia 12: Carousel - Animais marinhos
   Dia 13: Menu responsivo<br>
   Dia 14: Quiz House of Dragons<br>
   Dia 15: E-commerce<br>
