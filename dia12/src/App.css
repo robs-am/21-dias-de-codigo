@@ -1,0 +1,10 @@
+.item {
+    min-height: 40rem;
+    width: 30rem;
+    padding: 40px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
