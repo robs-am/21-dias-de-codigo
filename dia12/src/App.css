@@ -1,10 +1,16 @@
 .item {
-    min-height: 40rem;
+    min-height: 20rem;
+    min-width:20rem;
     width: 30rem;
-    padding: 40px;
+    padding: 10px;
 }
 
 .item img {
     width: 100%;
     height: 100%;
+    border-radius: 2rem;
+}
+
+.inner-carousel {
+    display: flex;
 }
