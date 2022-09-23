@@ -6,3 +6,27 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    
+    height: 10vh;
+
+    
+   
+    
+}
