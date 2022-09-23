@@ -7,7 +7,7 @@ const Home = () => {
      
         <section className='hero'>
            
-                <h1 className='slidein'>Welcome</h1>
+                <h1 className='slidein'>Bem vindo!</h1>
             
            
         </section>
