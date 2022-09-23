@@ -8,6 +8,10 @@
     overflow-y: hidden;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+}
 
 
 li, a {
@@ -32,13 +36,16 @@ li, a {
 .hero  {
     text-align: center;
     margin-top: 3%;
-    font-size: 50px;
+    font-size: 40px;
+    
 }
 
 .card {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
     
 }
 
@@ -47,9 +54,10 @@ li, a {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 8%;
+    margin-top: 5%;
     text-align: center;
-    max-width: 300px;
+    width: 300px;
+    
     height: 300px;
     padding: 1em 1.5em 1.5em;
     border-radius: 0.3em;
@@ -57,9 +65,16 @@ li, a {
     border: 1px solid rgba(255, 255, 255, .25);
     box-shadow: 0 0 10px 1px rgb(0 0 0 / 15%);
 }
+.social {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
 
 .social > .icone {
-    font-size: 25px;
+    font-size: 30px;
+    
 }
 
 .navbar {
