@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 import { FaBars } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 import Perfil from "./images.js";
 
 const Navbar = () => {
@@ -27,26 +30,29 @@ const Navbar = () => {
           <FaBars />
         </button>
       </nav>
-      <section className="hero">
+      <section className="card">
         <div className="card-perfil">
           <div className="perfil">
             <Perfil />
+          
           </div>
-          <a
-            href="http://linkedin.com/roberta-amaro"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Linkedin
-          </a>
-          <a
-            href="https://github.com/robs-am"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Github
-          </a>
-          <button onClick={() => window.location = 'mailto:roberta.amaro89l@gmail.com'}>Contact Me</button>
+            <div className="social">
+            <a className="icone"
+              href="http://linkedin.com/roberta-amaro"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiFillLinkedin />
+            </a>
+            <a className="icone"
+              href="https://github.com/robs-am"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiFillGithub />
+            </a>
+            <button className="icone" onClick={() => window.location = 'mailto:roberta.amaro89l@gmail.com'}><AiOutlineMail /></button>
+            </div>
         </div>
       </section>
     </>

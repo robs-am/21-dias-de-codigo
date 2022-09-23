@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    overflow-y: hidden;
 }
 
 
@@ -28,10 +29,37 @@ li, a {
     
 }
 
-.hero {
+.hero  {
     text-align: center;
-    margin-top: 15%;
+    margin-top: 3%;
     font-size: 50px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-perfil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 8%;
+    text-align: center;
+    max-width: 300px;
+    height: 300px;
+    padding: 1em 1.5em 1.5em;
+    border-radius: 0.3em;
+    background-color: rgba(255, 255, 255, .20);
+    border: 1px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 0 10px 1px rgb(0 0 0 / 15%);
+}
+
+.social > .icone {
+    font-size: 25px;
 }
 
 .navbar {
