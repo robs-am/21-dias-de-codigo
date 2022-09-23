@@ -19,12 +19,11 @@ const Navbar = () => {
         <Link to="/skills">
           <li>Habilidades</li>
         </Link>
-
-        
       </ul>
+
       <button className="mobile-menu-icon">
-          <FaBars />
-        </button>
+        <FaBars />
+      </button>
     </nav>
   );
 };
