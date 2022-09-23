@@ -17,7 +17,19 @@ li, a {
     justify-content: space-around;
     align-items: center;
     width: 75%;
+}
+
+.nav-links li {
+    color: #171717;
+    font-weight: 400;
+    cursor: pointer;
     
+}
+
+.hero {
+    text-align: center;
+    margin-top: 15%;
+    font-size: 50px;
 }
 
 .navbar {
@@ -25,6 +37,8 @@ li, a {
     justify-content: flex-end;
     
     height: 10vh;
+
+    box-shadow: rgba(50,50,93, 0.15) 0 30px 30px -20px;
 
     
    
