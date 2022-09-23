@@ -1,6 +1,6 @@
 import React from "react";
 
-const Services = () => {
+const Projects = () => {
   return (
     <section className="hero">
       <h1>Serviços</h1>
@@ -8,4 +8,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Projects;
