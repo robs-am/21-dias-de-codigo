@@ -1,10 +1,11 @@
-
-import './App.css';
+import React from 'react';
+// eslint-disable-next-line
+import Navbar  from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>ola</h1>
+      <h1>Navbar Page</h1>
     </div>
   );
 }
