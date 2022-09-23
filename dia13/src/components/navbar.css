@@ -1,143 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
-
-li, a {
-    text-decoration: none;
-    list-style: none;
+li,
+a {
+  text-decoration: none;
+  list-style: none;
 }
 
 .nav-links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 45%;
 }
 
 .nav-links li {
-    color: #171717;
-    font-weight: 400;
-    cursor: pointer;
-    
+  color: #171717;
+  font-weight: 400;
+  cursor: pointer;
 }
 
 .nav-links-hover:hover {
-    transition: 300ms ease-in;
-    transform:translateY(-5px);
-    color: #a1a1aa;
+  transition: 300ms ease-in;
+  transform: translateY(-5px);
+  color: #a1a1aa;
 }
 
-.hero  {
-    text-align: center;
-    margin-top: 3%;
-    font-size: 40px;
+.hero {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 40px;
 }
 
 .slidein {
-    transition: all 1s cubic-bezier(0.29, 1.01, 1, -0.68);
-    
-    animation: 1s ease-out 0s;
-    animation-name: slidein;
+  animation: 1s ease-out;
+  animation-name: slidein;
 }
 
 @keyframes slidein {
-        
-        0% {
-          transform: translateY(-100%);
-        }
-        100% {
-          transform: translateY(0);
-        }
-      
-      
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.3
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-    
-
-
-
 .card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-perfil {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 5%;
-    text-align: center;
-    width: 300px;
-    
-    height: 300px;
-    padding: 1.5em 1.5em 1.5em;
-    border-radius: 0.3em;
-    background-color: rgba(255, 255, 255, .20);
-    border: 1px solid rgba(255, 255, 255, .25);
-    box-shadow: 0 0 10px 1px rgb(0 0 0 / 15%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 5%;
+  text-align: center;
+  width: 300px;
+
+  height: 300px;
+  padding: 1.5em 1.5em 1.5em;
+  border-radius: 0.3em;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 15%);
 }
 .social {
-    width: 140px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    
+  width: 140px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .social > .icone {
-    font-size: 30px;
-    color:#171717;
-   
+  font-size: 30px;
+  color: #171717;
 }
 
-.icone:visited{
- color: #171717;
+.icone:visited {
+  color: #171717;
 }
 .icone:hover {
-    transition: 300ms ease-in;
-    transform:translateY(-5px);
-    color: #a1a1aa;
+  transition: 300ms ease-in;
+  transform: translateY(-5px);
+  color: #a1a1aa;
 }
 
 .navbar {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 10vh;
-    
-    backdrop-filter: blur(15px);
-    background-color: rgba(255, 255, 255, .20);
-    border: 1px solid rgba(255, 255, 255, .25);
-    box-shadow: 0 0 10px 1px rgb(0 0 0 / 25%);
-      
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10vh;
+
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 25%);
 }
 
 button {
-    border: none;
-    background: none;
-    font-size: 20px;
-    cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .mobile-menu-icon {
-    display: none;
+  display: none;
 }
-
