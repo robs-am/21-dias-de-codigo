@@ -1,10 +1,17 @@
 import React from 'react';
+import Perfil from './images.js';
+
 
 const Home = () => {
     return (
      
         <section className='hero'>
-        <h1>Welcome</h1>
+            <div className='welcome'>
+                <h1>Welcome</h1>
+            </div>
+            <>
+            <Perfil />
+            </>
         </section>
   
      
