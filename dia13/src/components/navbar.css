@@ -67,7 +67,7 @@ a {
   }
 
   50% {
-    transform:translateY(30%);
+    transform:translateY(10%);
   }
   
   100% {
@@ -85,11 +85,11 @@ a {
   }
 
   50% {
-    opacity: 0.4
+    opacity: 0.3
   }
 
   75% {
-    opacity: 0.6
+    opacity: 0.5
   }
 
   100% {
@@ -119,7 +119,7 @@ a {
   text-align: center;
   width: 300px;
 
-  height: 300px;
+  height: 350px;
   padding: 1.5em 1.5em 1.5em;
   border-radius: 0.3em;
   background-color: rgba(255, 255, 255, 0.2);
@@ -129,10 +129,12 @@ a {
 
 .nome > .roberta {
     font-weight: 300;
+    padding-bottom: 0.1em;
 }
 
 .nome > .desenvolvedora {
     font-weight: 400;
+    font-size: 18px;
     color:black;
 }
 
@@ -163,7 +165,6 @@ a {
   justify-content: flex-end;
   align-items: center;
   height: 10vh;
-
   backdrop-filter: blur(15px);
   background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.25);
