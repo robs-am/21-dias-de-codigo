@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import Sobre from "./components/Sobre";
 
 function App() {
   return (
@@ -15,9 +16,13 @@ function App() {
         <Navbar />
 
           <Switch>
-            <Route path="/home" components={Home} exact>
+            <Route path="/" components={Home} exact>
               {" "}
               <Home />
+            </Route>
+            <Route path="/sobre" components={Sobre} exact>
+              {" "}
+              <Sobre />
             </Route>
             <Route path="/projects" components={Projects} exact>
               {" "}

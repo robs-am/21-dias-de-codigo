@@ -13,8 +13,11 @@ const Navbar = () => {
      
       <nav className="navbar">
         <ul className="nav-links">
-          <Link className="nav-links-hover" to="/home">
-            <li>Início</li>
+          <Link className="nav-links-hover" to="/">
+            <li>Home</li>
+          </Link>
+          <Link className="nav-links-hover" to="/sobre">
+            <li>Sobre</li>
           </Link>
           <Link className="nav-links-hover" to="/projects">
             <li>Projetos</li>
