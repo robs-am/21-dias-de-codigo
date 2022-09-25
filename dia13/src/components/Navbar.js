@@ -17,7 +17,7 @@ const Navbar = () => {
     <>
      
       <nav className="navbar">
-        <ul className="nav-links">
+        <ul className= {Mobile ? "nav-links-mobile": "nav-links"} onClick ={() => setMobile(false)}>
           <Link className="nav-links-hover" to="/">
             <li>Home</li>
           </Link>
@@ -30,13 +30,13 @@ const Navbar = () => {
           <Link className="nav-links-hover" to="/skills">
             <li>Habilidades</li>
           </Link>
-          <Link className="nav-links-hover" to="/contact">
+         {/*  <Link className="nav-links-hover" to="/contact">
             <li>Contato</li>
-          </Link>
+          </Link> */}
         </ul>
 
-        <button className="mobile-menu-icon">
-          {Mobile? <ImCross /> : <FaBars />}
+        <button className="mobile-menu-icon" onClick={() => setMobile(!Mobile)}>{Mobile? <ImCross /> : <FaBars />}
+          
           
         </button>
       </nav>
