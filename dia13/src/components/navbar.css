@@ -56,7 +56,8 @@ a {
 .slidein {
    width:400px;
    height:100px;
-  animation: 1.2s ease-out 0.2s;
+   
+  animation: 1s ease-out;
   animation-name: slidein;
   
 }
@@ -89,7 +90,7 @@ a {
   }
 
   75% {
-    opacity: 0.5
+    opacity: 0.8
   }
 
   100% {
