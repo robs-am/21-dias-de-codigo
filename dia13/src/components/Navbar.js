@@ -2,12 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 import { FaBars } from "react-icons/fa";
+import { ImCross } from "react-icons/im";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import Perfil from "./images.js";
+import { useState } from "react";
 
 const Navbar = () => {
+ // eslint-disable-next-line
+  const [Mobile, setMobile] = useState(false)
+  
   return (
     <>
      
@@ -17,10 +22,10 @@ const Navbar = () => {
             <li>Home</li>
           </Link>
           <Link className="nav-links-hover" to="/sobre">
-            <li>Sobre</li>
+            <li >Sobre</li>
           </Link>
           <Link className="nav-links-hover" to="/projects">
-            <li>Projetos</li>
+            <li className="projetos">Projetos</li>
           </Link>
           <Link className="nav-links-hover" to="/skills">
             <li>Habilidades</li>
@@ -31,7 +36,8 @@ const Navbar = () => {
         </ul>
 
         <button className="mobile-menu-icon">
-          <FaBars />
+          {Mobile? <ImCross /> : <FaBars />}
+          
         </button>
       </nav>
 

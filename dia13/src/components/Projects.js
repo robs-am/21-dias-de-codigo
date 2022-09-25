@@ -8,4 +8,19 @@ const Projects = () => {
   );
 };
 
+/* const perfilCard = document.querySelector(".card");
+  
+function onClick() {
+   document.querySelector(".projetos");
+}
+
+onClick.addEventListener("click", () =>{
+    
+  if( onClick === true)  {
+  perfilCard.style.display = "none"; 
+    
+/* } else {
+  perfilCard.style.display = "in-line"; */
+
+
 export default Projects;
