@@ -25,7 +25,7 @@ const Navbar = () => {
             <li >Sobre</li>
           </Link>
           <Link className="nav-links-hover" to="/projects">
-            <li className="projetos">Projetos</li>
+            <li>Projetos</li>
           </Link>
           <Link className="nav-links-hover" to="/skills">
             <li>Habilidades</li>
