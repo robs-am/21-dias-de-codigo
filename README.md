@@ -19,7 +19,7 @@
 ✔ Dia 10: Uso da biblioteca Particle.js<br>
 ✔ Dia 11: Tela de Login<br>
 ✔ Dia 12: Carousel - Animais marinhos<br>
-  Dia 13: Menu responsivo<br>
+✔ Dia 13: Menu responsivo<br>
   Dia 14: Quiz House of Dragons<br>
   Dia 15: E-commerce<br>
   Dia 16: Consumindo uma API pública<br>
