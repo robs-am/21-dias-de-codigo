@@ -7,7 +7,16 @@ const initialState = {
     gameStage: STAGES[0],
     questions
 }
+const quisReducer =(state, action) => {
+    
+    switch(action.type){
+        case "CHANGE_STATE":
+            return state;
 
+            default:
+            return state;
+    }
+}
 export const QuizContext = createContext();
 
 export const QuizProvider = ({children}) => {
