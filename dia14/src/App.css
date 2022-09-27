@@ -12,7 +12,7 @@
   margin-bottom: 2rem;
   color: #d1d5db;
   font-family: "Cinzel", serif;
-  animation: 1.5s ease-out 800ms;
+  animation: 1.5s ease-in;
   animation-name: quiz-app;
 }
 
@@ -30,15 +30,15 @@
       }
  */
   0% {
-    opacity: 0.1;
+    opacity: 0;
   }
   25% {
-    opacity: 0.4;
+    opacity: 0.1;
   }
 
  
   75% {
-    opacity: 0.7;
+    opacity: 0.3;
   }
 
   100% {
