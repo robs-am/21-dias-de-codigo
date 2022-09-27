@@ -1,15 +1,17 @@
-import React from 'react'
-import './Welcome.css'
+import React from "react";
+import "./Welcome.css";
+import Logo from "./../img/Logo.svg";
 
 const Welcome = () => {
-    return(
-        <div>
-            <h2>Seja bem-vindo</h2>
-            <p>Clique no botão abaixo para começar:</p>
-            <button>Iniciar</button>
-            < img src="" alt="" />
-        </div>
-    )
-}
+  return (
+    <div id="welcome">
+      
+      
+      <button>Iniciar</button>
+      <img src={Logo} alt="Logo dragão" />
+      
+    </div>
+  );
+};
 
-export default Welcome
+export default Welcome;

@@ -3,5 +3,34 @@
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
+  color: #fff
   
+}
+body, 
+html {
+
+  min-height: 100vh;
+  height:100%;
+  background-color: #171717;
+}
+
+img {
+  margin-top: 3rem;
+  width: 350px;
+  max-width: 100%;
+  filter: contrast(90%);
+  
+}
+
+button {
+  font-weight:bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: .8rem 1.5rem;
+  background:linear-gradient(90deg,#737373,#a3a3a3) ;
+  border-radius: .3rem;
+}
+
+button:hover {
+  background:linear-gradient(90deg,#a3a3a3,#737373) ;
 }

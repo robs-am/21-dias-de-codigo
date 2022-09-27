@@ -1,0 +1,12 @@
+#welcome {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#welcome h2,
+#welcome p {
+    margin-bottom: 1rem;
+}
