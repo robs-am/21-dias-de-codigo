@@ -7,13 +7,13 @@ import "./Welcome.css";
 import Logo from "./../img/Logo.svg";
 
 const Welcome = () => {
-    const quizState = useContext(QuizContext);
-    console.log(quizState);
+    const [quizState, dispatch] = useContext(QuizContext);
+    
   return (
     <div id="welcome">
       
       
-      <button>Iniciar</button>
+      <button onClick={() => dispatch({type:"CHANGE_STATE"})}>Iniciar</button>
       <img src={Logo} alt="Logo dragão" />
       
     </div>
