@@ -1,0 +1,20 @@
+#question {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    
+    padding: 2rem;
+}
+
+#question h2
+ {
+    margin-bottom: 2rem;
+}
+
+#question p {
+    margin-bottom: 1rem;
+}
+
