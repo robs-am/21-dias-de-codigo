@@ -7,7 +7,7 @@ import Logo from "./../img/Logo.svg";
 
 const Welcome = () => {
     const [quizState, dispatch] = useContext(QuizContext);
-    console.log(quizState)
+    
 
     
   return (
