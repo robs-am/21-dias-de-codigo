@@ -11,3 +11,7 @@
     margin-bottom: 1rem;
 }
 
+.logo {
+    width: 300px;
+    padding-block: .3rem;
+}
