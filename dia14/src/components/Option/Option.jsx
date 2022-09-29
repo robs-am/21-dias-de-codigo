@@ -7,8 +7,8 @@ const Option = ({ option }) => {
   const [quizState, dispatch] = useContext(QuizContext);
 
   return (
-    <div>
-      <p>Option</p>
+    <div className="option">
+      <p>{option}</p>
     </div>
   );
 };

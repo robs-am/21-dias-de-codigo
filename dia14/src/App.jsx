@@ -18,7 +18,7 @@ useEffect(() => {
 
   return (
     <div className="App">
-      <h1>House of Dragon Quizz App</h1>
+      <h1>House of Dragon<br></br> Quizz App</h1>
       {quizState.gameStage === "Start" && <Welcome />}
       {quizState.gameStage === "Playing" && <Question />}
       {quizState.gameStage === "End" && <GameOver />}

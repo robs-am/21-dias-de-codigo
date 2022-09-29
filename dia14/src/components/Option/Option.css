@@ -1,0 +1,21 @@
+.option {
+   
+    background-color:#404040 ;
+    
+    border-radius: .5rem;
+    padding: 1rem;
+    padding-inline: 2rem;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+    opacity: .7;
+    transition: .4s;
+}
+
+.option:hover {
+    background-color: #27272a;
+    opacity:1;
+}
+
+#options-container .option p {
+    margin-bottom: 0;
+}

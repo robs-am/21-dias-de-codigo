@@ -1,10 +1,10 @@
 #welcome {
-    text-align: center;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 500px;
+    
 }
 
 #welcome h2,
@@ -13,13 +13,8 @@
 }
 
 .logo {
-    width: 300px;
+    width: 250px;
     padding-block: .3rem;
 }
 
-@media only screen  and (min-device-width: 390px) {
-    .logo{
-      width: 250px;
-      padding-block: .1rem;
-    }
-  }
+

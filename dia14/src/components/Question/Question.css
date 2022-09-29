@@ -11,14 +11,15 @@
     flex-direction: column;
     border-radius: 0.25rem;
     background-color: rgba(255, 255, 255, 0.016);
+    max-width: 500px;
+    padding-block:0.5rem;
     
-    
-    padding: 3rem;
+    padding-inline: 5rem;
     
 }
 
 #question h2
- {
+ {  font-size: 1.3rem;
     letter-spacing: 0.15rem;
     margin-bottom: 2rem;
     font-family: 'Red Hat Display', sans-serif;
@@ -32,3 +33,11 @@
 
 
 
+@media (min-width:480px) {
+    #question h2 {
+      padding-inline: 1.5rem;
+    } 
+    #question  {
+    padding-block: 1rem;
+    }
+  }
