@@ -1,0 +1,28 @@
+#gameover {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gameover h2,
+#gameover p {
+    margin-bottom: 1rem;
+}
+
+img {
+    
+}
+
+.reiniciar {
+    margin-top: 2rem;
+}
+
+@media only screen  and (min-device-width: 390px) {
+    .logo{
+      width: 250px;
+      padding-block: .1rem;
+    }
+  }

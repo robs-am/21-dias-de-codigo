@@ -1,11 +1,18 @@
-import React from 'react';
+import { useContext } from "react";
+import { QuizContext } from "../../context/quiz";
 
-import "./GameOver.css"
+import "./GameOver.css";
+import Dracarys from "../img/Dracarys.gif";
 
 const GameOver = () => {
+    const [quizState, dispatch] = useContext(QuizContext);
     return (
-        <div>
-            <h2>Game Over</h2>
+        <div id="gameover">
+            <h2>Fim de Jogo!</h2>
+            <p>Pontuação: {quizState.score}</p>
+            <p>Você acertou {quizState.score} de {quizState.questions.length} perguntas</p>
+            <img src={Dracarys} alt="Gif de Dragão" />
+            <button className="reiniciar">Reiniciar</button>
         </div>
     )
 }
