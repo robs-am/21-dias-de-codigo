@@ -7,8 +7,8 @@ const Question = () => {
   const [quizState, dispatch] = useContext(QuizContext);
   const currentQuestion = quizState.questions[quizState.currentQuestion];
 
-  const selectOption = () => {
-    
+  const onSelectOption = () => {
+
   }
 
   console.log(quizState);
@@ -20,7 +20,11 @@ const Question = () => {
       <h2>{currentQuestion.question}</h2>
       <div id="options-container">
         {currentQuestion.options.map((option) => (
-          <Option option={option} key={option} answer={currentQuestion.answer} />
+          <Option 
+          option={option} 
+          key={option} 
+          answer={currentQuestion.answer}
+          selectOption={() =>onSelectOption()} />
         ))}
       </div>
       {quizState.answerSelected && (
