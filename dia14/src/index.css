@@ -35,10 +35,11 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
   padding: .8rem 1.5rem;
-  background:linear-gradient(90deg,#737373,#a3a3a3) ;
+  background-color: #944949fd;
   border-radius: .3rem;
+  border: none;
 }
 
 button:hover {
-  background:linear-gradient(90deg,#a3a3a3,#737373) ;
+  background: #7f1d1d
 }
