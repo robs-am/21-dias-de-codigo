@@ -11,11 +11,12 @@ body {
   width: 100vw;
   
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 .App {
   flex-direction: column;
+  
   text-align: center;
   padding-block: 1rem;
   border-radius: 1rem;
@@ -72,10 +73,14 @@ body {
 @media (min-width:480px) {
   .App {
     padding-block: 3rem;
+    padding-bottom: 3rem;
   }
   .App h1 {
     font-size: 2rem;
     margin-bottom: 2rem;
-  }
+  } 
+  
+
+  
 
 }
