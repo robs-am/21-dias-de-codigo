@@ -17,7 +17,7 @@ const Question = () => {
             <div id="options-container">
                 <p>Opções</p>
             </div>
-            <button>Continuar</button>
+            <button className="button">Continuar</button>
      
         </div>
     );

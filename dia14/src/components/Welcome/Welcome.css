@@ -15,3 +15,10 @@
     width: 300px;
     padding-block: .3rem;
 }
+
+@media only screen  and (min-device-width: 390px) {
+    .logo{
+      width: 250px;
+      padding-block: .1rem;
+    }
+  }
