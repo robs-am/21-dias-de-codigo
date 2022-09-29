@@ -18,7 +18,7 @@ const data = [
       "Rei Viserys I Targaryen",
       "Lord Corlys Velaryon",
       "Príncipe Daemon Targaryen",
-      "Ser Otto Hightower",
+      "Sir Otto Hightower",
     ],
     answer: "Lord Corlys Velaryon",
   },
@@ -51,6 +51,7 @@ const data = [
   {
     question: "O que significa a expressão Dracarys?",
     options: ["Fogo de Dragão", "Agora", "Ascenda", "Queime-o"],
+    answer: "Fogo de Dragão",
   },
 ];
 
