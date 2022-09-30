@@ -15,7 +15,7 @@ const Welcome = () => {
       
       
       <button onClick={() => dispatch({type:"CHANGE_STATE"})}>Iniciar</button>
-      <img src={Logo} alt="Logo dragão" />
+      <img className='logo' src={Logo} alt="Logo dragão" />
       
     </div>
   );

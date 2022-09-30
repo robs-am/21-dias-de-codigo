@@ -16,24 +16,27 @@ body {
 }
 .App {
   flex-direction: column;
-  
+  align-items: center;
+  justify-content: space-around;
   text-align: center;
-  padding-block: 1rem;
+  padding-bottom:1rem;
   border-radius: 1rem;
   border: 1px solid #e073660a;
   max-width: 500px;
   
-  
+  height: 800px;
   background-color: rgba(255,255,255, 0.008);
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
   width:500px;
-  
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;  
 }
 
 .App h1 {
+ 
+    
+  
   font-size: 1.8rem;
   margin-inline:0.3rem;
-  margin-top:1rem;
+  margin-top:2rem;
   margin-bottom:2rem;
   
   color: #d1d5db;
@@ -79,19 +82,20 @@ body {
     align-items: center;
     justify-content: center;
     
+    
   }
   
   .App {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     height:100vh;
     
     padding-bottom: 0.1rem;
     
   }
   .App h1 {
-    padding:none;
+    padding-block:1rem;
     font-size: 2rem;
     
     

@@ -13,10 +13,10 @@
     background-color: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(45px);
     max-width: 500px;
-    
+    height: 70%;
     padding-block:0.5rem;
     
-    padding-inline: 5rem;
+    
     
 }
 
@@ -25,11 +25,14 @@
     letter-spacing: 0.15rem;
     margin-bottom: 2rem;
     font-family: 'Red Hat Display', sans-serif;
+    margin-inline: 5rem;
 }
 
 #question p {
     margin-bottom: 1rem;
     font-family: 'Red Hat Display', sans-serif;
+    border-radius: 2rem;
+    margin-inline: 1rem;
     
 }
 
@@ -40,7 +43,7 @@
       padding-inline: 1.5rem;
     } 
     #question  {
-    padding-block: 1rem;
+    padding-block: rem;
     height: 80%;
     }
   }
