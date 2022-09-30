@@ -41,6 +41,7 @@ button {
   margin-top:1rem;
   cursor: pointer;
   opacity: 0.7;
+  
   padding: 1rem 2rem;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: .3rem;
@@ -64,5 +65,7 @@ button:active {
 }
 
 @media (min-width:480px) {
-  
+  button {
+    margin: 0.8rem;
   }
+}

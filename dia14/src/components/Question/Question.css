@@ -50,11 +50,15 @@
       margin-inline:2rem;
     } 
     #question  {
-    
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
       height:600px;
       width:500px;
     }
     .question-header {
-      height: 150px;
+      height: 100px;
+      
+      
     }
   }
