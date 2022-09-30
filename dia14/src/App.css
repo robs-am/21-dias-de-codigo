@@ -11,7 +11,7 @@ body {
   width: 100vw;
   
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 }
 .App {
@@ -26,14 +26,16 @@ body {
   
   background-color: rgba(255,255,255, 0.008);
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
-  width:600px;
+  width:500px;
   
 }
 
 .App h1 {
   font-size: 1.8rem;
   margin-inline:0.3rem;
-  margin-bottom: 1rem;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  
   color: #d1d5db;
   font-family: "Cinzel", serif;
   animation: 1.5s ease-in;
@@ -71,13 +73,28 @@ body {
 }
 
 @media (min-width:480px) {
+  html,
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
   .App {
-    padding-block: 3rem;
-    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:100vh;
+    
+    padding-bottom: 0.1rem;
+    
   }
   .App h1 {
+    padding:none;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    
+    
   } 
   
 

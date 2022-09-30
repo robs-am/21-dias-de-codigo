@@ -22,7 +22,7 @@
 
 .correct {
     background-color: #4bc946a5;
-    transition: 1s;
+    transition: 0.5s;
     font-weight: bold;
 }
 

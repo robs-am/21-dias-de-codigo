@@ -1,7 +1,7 @@
 #welcome {
     
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     
@@ -12,9 +12,19 @@
     margin-bottom: 1rem;
 }
 
-.logo {
-    width: 250px;
+#welcome img {
+    width: 200px;
     padding-block: .3rem;
 }
 
+@media (min-width:480px) {
+    #welcome img {
+        resize: 300px;
+        padding-block: .3rem;
+    }
 
+    #welcome {
+        height: 500px;
+    }
+    
+}
