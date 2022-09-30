@@ -45,6 +45,7 @@ const quizReducer = (state, action) => {
                 return initialState;
             
             case "CHECK_ANSWER":
+                if(state.answerSelected) return state;
                 const answer = action.payload.answer;
                 const option = action.payload.option;
                 let correctAnswer = 0;
