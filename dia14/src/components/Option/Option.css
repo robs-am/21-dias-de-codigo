@@ -22,20 +22,12 @@
 
 .correct {
     background-color: #4bc946a5;
-    -webkit-tap-highlight-color:  #4bc946a5;
+    -webkit-tap-highlight-color:  black;
     font-weight: bold;
     transform: .2s;
 }
 
-.correct:checked {
-    background-color: #4bc946a5;
-}
-.wrong:checked {
-    
-    background-color: #e4282854;
-    opacity: 0.4;
-    transition: .2s;
-}
+
 
 .wrong {
     
