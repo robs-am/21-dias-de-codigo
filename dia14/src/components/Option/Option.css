@@ -21,11 +21,13 @@
 }
 
 .correct {
-    background-color: #0bfc03;
+    background-color: #4bc946a5;
+    transition: 1s;
     font-weight: bold;
 }
 
 .wrong {
-    background-color: red;
+    background-color: #4b4b4ba3;
     opacity: 0.4;
+    transition: 1s;
 }
