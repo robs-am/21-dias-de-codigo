@@ -22,12 +22,13 @@
 
 .correct {
     background-color: #4bc946a5;
-    transition: 0.5s;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     font-weight: bold;
 }
 
 .wrong {
-    background-color: #4b4b4ba3;
+    
+    background-color: #e4282854;
     opacity: 0.4;
     transition: 1s;
 }
