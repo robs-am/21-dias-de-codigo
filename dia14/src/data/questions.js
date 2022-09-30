@@ -33,7 +33,7 @@ const data = [
     answer: "Fogo e Sangue",
   },
   {
-    question: "Qual é o Dragão mais antigo em House of Dragon?",
+    question: "Qual é o Dragão mais antigo em House of the Dragon?",
     options: ["Balerion", "Dreamfyre", "Vhagar", "Tessarion",
   ],
     answer: "Vhagar",
@@ -50,7 +50,7 @@ const data = [
     answer: "Aegon, o Conquistador",
   },
   {
-    question: "O que significa a expressão Dracarys?",
+    question: "O que significa a expressão 'Dracarys'?",
     options: ["Fogo de Dragão", "Agora", "Ascenda", "Queime-o"],
     answer: "Fogo de Dragão",
   },
