@@ -53,8 +53,14 @@ button:hover {
   animation: ease-in;
   border: 1px solid #e4282854;
   background: #f7caca51;
-  
-  
+   
+}
+
+button:active {
+  color:#fff;
+   border: 1px solid #e4282854;
+  background: #f7caca51;
+    
 }
 
 @media (min-width:480px) {
