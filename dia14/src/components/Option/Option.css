@@ -31,7 +31,8 @@
 
 .wrong {
     
-    background-color: #e4282854;
+    background-color: #262626;
+    border:1px solid#404040;
     opacity: 0.4;
     transition: .2s;
 }
