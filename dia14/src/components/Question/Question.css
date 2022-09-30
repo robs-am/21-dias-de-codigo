@@ -21,11 +21,13 @@
 }
 
 #question h2
+
  {  font-size: 1.3rem;
     letter-spacing: 0.15rem;
     margin-bottom: 2rem;
     font-family: 'Red Hat Display', sans-serif;
     margin-inline: 5rem;
+    width:250px;
 }
 
 #question p {
@@ -40,10 +42,13 @@
 
 @media (min-width:480px) {
     #question h2 {
-      padding-inline: 1.5rem;
+      width:300px;
+      padding-inline: 1rem;
+      margin-inline:2rem;
     } 
     #question  {
-    padding-block: rem;
-    height: 80%;
+    
+      height:700px;
+      width:500px;
     }
   }

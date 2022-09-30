@@ -13,13 +13,13 @@
 }
 
 #welcome img {
-    width: 200px;
+    width: 250px;
     padding-block: .3rem;
 }
 
 @media (min-width:480px) {
-    #welcome img {
-        resize: 300px;
+     img {
+        width: 400px;
         padding-block: .3rem;
     }
 

@@ -41,15 +41,19 @@ button {
   margin-top:2rem;
   cursor: pointer;
   opacity: 0.7;
-  padding: 1rem 1.8rem;
-  background-color: #a14a40;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: .3rem;
   border: none;
 }
 
 button:hover {
   transition: .4s;
-  background: #6F1A10;
+  color:#fff;
+  animation: ease-in;
+  border: 1px solid #e4282854;
+  background: #f7caca51;
+  
   
 }
 
