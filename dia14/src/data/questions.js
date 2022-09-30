@@ -34,7 +34,8 @@ const data = [
   },
   {
     question: "Qual é o Dragão mais antigo em House of Dragon?",
-    options: ["Balerion", "Dreamfyre", "Vhagar", "Tessarion",],
+    options: ["Balerion", "Dreamfyre", "Vhagar", "Tessarion",
+  ],
     answer: "Vhagar",
   },
   {

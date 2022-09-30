@@ -17,10 +17,12 @@ const Question = () => {
   console.log(quizState);
   return (
     <div id="question">
-      <p>
-        Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}
-      </p>
-      <h2>{currentQuestion.question}</h2>
+      <div className="question-header">
+        <p>
+          Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}
+        </p>
+        <h2>{currentQuestion.question}</h2>
+      </div>
       <div id="options-container">
         {currentQuestion.options.map((option) => (
           <Option 
