@@ -1,34 +1,37 @@
 #welcome {
-    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
 
 #welcome h2,
 #welcome p {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 #welcome img {
-    width: 250px;
-    padding-block: .3rem;
+  width: 250px;
+  padding-block: 0.3rem;
 }
 
-@media (min-width:480px) {
-     img {
-        width: 400px;
-        padding-block: .3rem;
-    }
+@media (min-width: 480px) {
+  #welcome img {
+    width: 280px;
+    padding-bottom: 0.3rem;
+  }
 
-    #welcome {
-        height: 500px;
-    }
+  #welcome {
+    height: 300px;
+    width: 600px;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    /* border: 1px solid #443a3a; */
+    /* background-color: rgba(252, 237, 237, 0.05); */
+/*     backdrop-filter: blur(90px);
+ *//*     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+ */    
 
-    
-
-    }
-    
-
+    height: 70%;
+  }
+}

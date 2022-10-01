@@ -1,6 +1,6 @@
 .option {
    
-    background-color:#404040 ;
+    background-color:#575656 ;
     font-size: 1.2rem;
     border-radius: .5rem;
     padding: 0.8rem;
@@ -9,20 +9,27 @@
     cursor: pointer;
     opacity: .7;
     transition: .4s;
+    
+
+    -webkit-tap-highlight-color:  rgba(0,0,0,0);
 }
 
 .option:hover {
     background-color: #27272a;
-    opacity:1;
+    opacity:0.7;
+    border: 1px solid rgb(90, 87, 87);
+    transition: .2s;
+    -webkit-tap-highlight-color:  rgba(0,0,0,0);
 }
 
 #options-container .option p {
     margin-bottom: 0;
+    
 }
 
 .correct {
     background-color: #4bc946a5;
-    -webkit-tap-highlight-color:  black;
+    
     font-weight: bold;
     transform: .2s;
 }
@@ -33,6 +40,7 @@
     
     background-color: #262626;
     border:1px solid#404040;
+    
     opacity: 0.4;
     transition: .2s;
 }

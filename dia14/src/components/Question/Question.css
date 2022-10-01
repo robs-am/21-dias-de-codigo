@@ -1,64 +1,58 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400&display=swap");
 
 #question {
-    
-    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 0.1rem;
-    background-color: rgba(255, 255, 255, 0.02);
-    backdrop-filter: blur(45px);
-    max-width: 500px;
-    height: 70%;
-    
-    
-    
-    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.1rem;
+  background-color: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(45px);
+
+  height: 70%;
 }
 
-#question h2
-
- {  font-size: 1.2rem;
-    letter-spacing: 0.15rem;
-    margin-bottom: 2rem;
-    font-family: 'Red Hat Display', sans-serif;
-    padding-inline: 1.2rem;
-    width:350px;
+#question h2 {
+  font-size: 1.2rem;
+  letter-spacing: 0.15rem;
+  margin-bottom: 2rem;
+  font-family: "Red Hat Display", sans-serif;
+  padding-inline: 1.2rem;
+  width: 350px;
 }
 
 #question p {
-    margin-bottom: 1rem;
-    font-family: 'Red Hat Display', sans-serif;
-    border-radius: 2rem;
-    margin-inline: 1rem;
-    
+  margin-bottom: 1rem;
+  font-family: "Red Hat Display", sans-serif;
+  border-radius: 2rem;
+  margin-inline: 1rem;
 }
 
 .question-header {
   height: 120px;
-
 }
 
-@media (min-width:480px) {
-    #question h2 {
-      width:300px;
-      padding-inline: 1rem;
-      margin-inline:2rem;
-    } 
-    #question  {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      height:600px;
-      width:500px;
-    }
-    .question-header {
-      height: 100px;
-      
-      
-    }
+@media (min-width: 480px) {
+  #question h2 {
+    width: 300px;
+    padding-inline: 1rem;
+    margin-inline: 2rem;
   }
+  #question {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #443a3a;
+    background-color:  rgba(252, 237, 237, 0.05);
+    height: 800px;
+    width: 600px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+  }
+  .question-header {
+    height: 100px;
+  }
+}

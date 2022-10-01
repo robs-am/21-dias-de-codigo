@@ -13,9 +13,9 @@ const Welcome = () => {
   return (
     <div id="welcome">
       
-      
-      <button onClick={() => dispatch({type:"CHANGE_STATE"})}>Iniciar</button>
       <img className='logo' src={Logo} alt="Logo dragão" />
+      <button onClick={() => dispatch({type:"CHANGE_STATE"})}>Iniciar</button>
+      
       
     </div>
   );

@@ -14,13 +14,13 @@ html {
   flex-direction: column;
   overflow: hidden;
   height: 100vh;
-  background-color: #171717;
+  background: linear-gradient(to bottom, #000000, #434343);
 }
 
 
 
  img {
-  margin-top: 3rem;
+  margin-top: 1rem;
   width: 200px;
   max-width: 100%;
   filter: invert(-10%);
@@ -38,10 +38,10 @@ html {
 button {
   font-weight:bold;
   font-size: 1.4rem;
-  margin-top:1rem;
+  margin-top:2rem;
   cursor: pointer;
   opacity: 0.7;
-  
+  -webkit-tap-highlight-color:  rgba(0,0,0,0);
   padding: 1rem 2rem;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: .3rem;
@@ -66,6 +66,6 @@ button:active {
 
 @media (min-width:480px) {
   button {
-    margin: 0.8rem;
+    padding: 1.5rem 2.5rem;
   }
 }
