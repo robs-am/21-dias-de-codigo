@@ -38,7 +38,7 @@ html {
 button {
   font-weight:bold;
   font-size: 1.4rem;
-  margin-top:2rem;
+  margin-top:3rem;
   cursor: pointer;
   opacity: 0.7;
   -webkit-tap-highlight-color:  rgba(0,0,0,0);
