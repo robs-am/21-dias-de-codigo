@@ -10,8 +10,12 @@ const Header = () => {
           <li className='nav-links'>Headphones</li>
           <li className='nav-links'>Speakers</li>
           <li className='nav-links'>Earbuds</li>
-          <li className='nav-links'>Cart</li>
+          
         </ul>
+        <div className="search">
+          <i className="fa fa-search"></i>
+          <i className="fa fa-shopping-basket"></i>
+        </div>
       </nav>
     </div>
   )
