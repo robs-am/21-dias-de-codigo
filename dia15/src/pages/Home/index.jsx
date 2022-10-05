@@ -1,14 +1,9 @@
+import React from 'react'
 
-
-
-function App() {
-  
-
+const Home = () => {
   return (
-    <div className="App">
-      <h1>E-commerce</h1>
-    </div>
+    <div>index</div>
   )
 }
 
-export default App
+export default Home;
