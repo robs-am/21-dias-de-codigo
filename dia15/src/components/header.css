@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&display=swap');
+
+.navbar ul {
+    font-family: 'Figtree', sans-serif;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #191919;
+    color: #F8F8F8;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}

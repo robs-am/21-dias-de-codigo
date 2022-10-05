@@ -4,15 +4,13 @@
   box-sizing: border-box;
 }
 
-.container {
-  
 
-  
-  
-}
+
 .video {
   object-fit:cover;
   width: 100%;
   height: 300px;
   
+  
+   
 }

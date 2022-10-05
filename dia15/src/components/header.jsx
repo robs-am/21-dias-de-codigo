@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
+import './header.css';
 
 const Header = () => {
   return (
     <div>
-      <nav>
+      <nav className='navbar'>
         <ul>
-          <li>Home</li>
-          <li>Headphones</li>
-          <li>Speakers</li>
-          <li>Earbuds</li>
-          <li>Cart</li>
+          <li className='nav-links'>Home</li>
+          <li className='nav-links'>Headphones</li>
+          <li className='nav-links'>Speakers</li>
+          <li className='nav-links'>Earbuds</li>
+          <li className='nav-links'>Cart</li>
         </ul>
       </nav>
     </div>

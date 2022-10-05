@@ -12,8 +12,9 @@ function App() {
 
   return (
     <div className="container">
-      <video className='video' src={Menina2} autoPlay loop />
-           
+      
+        <video className='video' src={Menina2} autoPlay loop />
+        
       <Header />
       <Banner />
       <MainContent />
