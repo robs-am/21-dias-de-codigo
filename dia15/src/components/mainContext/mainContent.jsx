@@ -1,5 +1,6 @@
 import React from "react";
-import product_card from "./data/product_data";
+import product_card from "../data/product_data";
+import './mainContent.css'
 
 const mainContent = () => {
   console.table(product_card);
