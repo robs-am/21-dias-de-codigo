@@ -4,7 +4,7 @@ import Header from './components/header';
 import MainContent from './components/mainContent';
 import Footer from './components/footer';
 import Banner from './components/banner';
-import Menina from './assets/menina.mp4'
+import Menina2 from './assets/menina2.mp4'
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="container">
-      <video className='video' src={Menina} autoPlay loop />
+      <video className='video' src={Menina2} autoPlay loop />
            
       <Header />
       <Banner />
