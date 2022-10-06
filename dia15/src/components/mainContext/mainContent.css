@@ -1,1 +1,17 @@
+.main_content {
+   display: flex; 
+   width: 100%;
+   height: 100%;
+   
+   margin: 30px auto;
+   padding: 30px 50px;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   box-sizing: border-box;
 
+}
+
+.card_header  {
+    width:500px;
+    padding-left: 2rem;
+}

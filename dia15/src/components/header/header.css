@@ -19,12 +19,13 @@ li {
 }
 
 .search {
-    width: 170px;
+    width: 60px;
     height: 5vh;
     align-items: center;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+    margin-left: 15px;
 }
 .nav-links {
     
