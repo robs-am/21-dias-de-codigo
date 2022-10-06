@@ -14,13 +14,34 @@
 .card_header  {
     width:500px;
     padding-left: 2rem;
+}h2 {
+    font-size:28px;
+    font-weight: 700;
+}
+p{
+    font-size:20px;
+    text-align:center;
+    margin: 0.5rem 0;
+    color: rgb(40, 38, 38);
+    padding-top:.5rem;
+}
+.price{
+    font-size: 25px;
+    font-weight: 600;
+   
+}span{
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .card_img img {
-    width: 75%;
+    width: 80%;
 }
 
 .card {
     width: 500px;
     padding-bottom: 5rem;
+    transform: scale(0.8);
+    transition: all .3s ease-in-out;
 }
