@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   box-sizing: border-box;
   overflow: hidden;
+  
 }
 
 
@@ -103,10 +104,27 @@
   .main_content {
      padding: 0;
      height: 80%;
+     width:100vw;
+     
+     overflow-y: hidden;
+     
+     
   }
   .card {
-    margin:1.5rem;
-    padding:0.5rem;
+    
+    width: 400px;
+    margin-right:1rem;
+    
+    
+  }
+
+  .card_header {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 8px;
   }
   .footer {
     height: 10vh;

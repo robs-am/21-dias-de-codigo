@@ -1,50 +1,101 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&display=swap");
 
 .navbar ul {
-    font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
+  display: flex;
+
+  align-items: center;
+  
+ 
+ 
+  justify-content: space-evenly;
+  background-color: #191919;
+  color: #f8f8f8;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.navbar {
     height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #191919;
-    color: #F8F8F8;
-    font-weight: 400;
-    text-transform: uppercase;
 }
 
 li {
-    list-style: none;
-    cursor: pointer;
+  list-style: none;
+  cursor: pointer;
 }
 
 .search {
-    width: 60px;
-    height: 5vh;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-    margin-left: 15px;
+  width: 60px;
+  height: 5vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-left: 15px;
 }
 
-.nav-links:hover {
-    border: 1px ridge #faf6f6f5;
-    border-radius: 0.2rem;
-    padding: 0.3rem;
-    transition: 0.5s;
-    opacity: 0.8;
+li:hover {
+  border: 1px ridge #faf6f6f5;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+.navbar-mobile-menu-icon {
+    color: red;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.mobile-button {
+  background-color: aqua;
+  border: 1px solid black;
+  width:50px;
+  display: flex;
+  align-items: center;
+  
+
 }
 
 @media (max-width: 768px) {
-    .nav-links {
-        display: none;
-      }
+  .nav, li {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    color: #f8f8f8;
+    font-weight: 400;
+    list-style: none;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #dddde0;
+    z-index: 1;
     
-      nav {
-        
-        
-        
-        
-      }
+  }
+
+  ul li {
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .navbar-mobile-menu-icon {
+    background-color: transparent;
+    
+    border: none;
+    color: red;
+    
+    z-index: 3;
+    cursor: pointer;
+  }
 }

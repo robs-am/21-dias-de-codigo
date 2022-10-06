@@ -16,13 +16,20 @@
 }
 
 @media (max-width: 768px) {
-  .banner {
-  transform: scaleY(-1);
-    }
+   .banner {
+  position:relative;
+  z-index: 6;
+  object-fit:fill;
+    
+  }
 
-    nav-links {
-      display: none;
-    }
+nav-links {
+  display: none;
+}
+
+.container {
+  z-index: 3;
+}
 }
 
 
