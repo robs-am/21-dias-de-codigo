@@ -27,13 +27,17 @@ li {
     cursor: pointer;
     margin-left: 15px;
 }
-.nav-links {
-    
-}
+
 .nav-links:hover {
-    border: 1px ridge #d1c7c7b5;
+    border: 1px ridge #faf6f6f5;
     border-radius: 0.2rem;
     padding: 0.3rem;
     transition: 0.5s;
     opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+      }
 }
