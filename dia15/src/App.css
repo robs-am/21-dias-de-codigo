@@ -1,27 +1,21 @@
 #root {
   max-width: 1980px;
-  margin: 0 auto;
- 
+  margin: 0 ;
+  padding: 0;
   text-align: center;
 }
 
 
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-
-
-
-
-.card {
-  padding: 2em;
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  height:100%;
+  padding-bottom:  50px  ;
+  background-color: #F8F8F8;
 }
 
-.read-the-docs {
-  color: #888;
-}
+
+
+
+

@@ -17,3 +17,22 @@ li {
     list-style: none;
     cursor: pointer;
 }
+
+.search {
+    width: 170px;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.nav-links {
+    
+}
+.nav-links:hover {
+    border: 1px ridge #d1c7c7b5;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    transition: 0.5s;
+    opacity: 0.8;
+}
