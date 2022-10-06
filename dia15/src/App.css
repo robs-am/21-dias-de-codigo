@@ -15,7 +15,15 @@
   background-color: #F8F8F8;
 }
 
+@media (max-width: 768px) {
+  .banner {
+  transform: scaleY(-1);
+    }
 
+    nav {
+      display: none;
+    }
+}
 
 
 
