@@ -20,7 +20,7 @@
   transform: scaleY(-1);
     }
 
-    nav {
+    nav-links {
       display: none;
     }
 }
