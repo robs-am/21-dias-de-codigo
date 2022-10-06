@@ -12,8 +12,9 @@
 }
 
 .card_header  {
-    width:500px;
-    padding-left: 2rem;
+    
+    padding-inline:1.8rem;
+    
 }h2 {
     font-size:28px;
     font-weight: 700;
@@ -37,11 +38,28 @@ p{
 
 .card_img img {
     width: 80%;
+    
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 500px;
-    padding-bottom: 5rem;
+    padding:2rem;
+    
+    transition: all .3s ease-in-out;
     transform: scale(0.8);
+    cursor: pointer;
+    
+  
+}
+
+.card:hover {
+    background:linear-gradient(#e5e5e559,#d2d1d159);
+    backdrop-filter: blur(90px);
+    transform: scale(1.1);
+    border-radius: 1rem;
     transition: all .3s ease-in-out;
 }
