@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
+    
 }
 
 svg {
@@ -21,4 +22,12 @@ svg {
     top: 1rem;
     right: 1rem;
     color: #f8f8f8;
+}
+
+nav  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:2rem;
 }

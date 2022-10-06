@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div>
       <nav className="navbar">
-        <ul>
+        
           <a classname="nav-links" href="#">Home</a>
           <a classname="nav-links" href="#">Headphones</a>
           <a classname="nav-links" href="#">Speakers</a>
@@ -17,7 +17,7 @@ const Header = () => {
             <i className="fa fa-search"></i>
             <i className="fa fa-shopping-basket"></i>
           </div>
-        </ul>
+        
           {/* <div classname="mobile-button">
          { <button
             className="navbar-mobile-menu-icon"
