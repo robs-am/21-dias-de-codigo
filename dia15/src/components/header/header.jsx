@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./header.css";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
@@ -15,16 +16,16 @@ const Header = () => {
           className={Mobile ? "nav-links-mobile" : "nav-links"}
           onClick={() => setMobile(false)}
         >
-          <Link className="nav-links-mobile-hover" to="/">
+          <Link  to="/">
             <li>Home</li>
           </Link>
-          <Link className="nav-links-mobile-hover" to="/sobre">
+          <Link  to="/headphones">
             <li>Headphones</li>
           </Link>
-          <Link className="nav-links-mobile-hover" to="/projects">
+          <Link  to="/speakers">
             <li>Speakers</li>
           </Link>
-          <Link className="nav-links-mobile-hover" to="/skills">
+          <Link  to="/earbuds">
             <li>Earbuds</li>
           </Link>
          {/*  <li className="nav-links-mobile-hover">Home</li>
