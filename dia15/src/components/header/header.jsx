@@ -1,13 +1,13 @@
 import React from "react";
 import "./header.css";
 import { useState } from "react";
-/* import { FaBars } from "react-icons/fa";
-import { ImCross } from "react-icons/im"; */
+import { FaBars } from "react-icons/fa";
 
 const Header = () => {
+  const [Mobile, setMobile] = useState(false)
   return (
     <div>
-      <nav className="navbar">
+      <nav className= {Mobile ? "nav-links-mobile": "nav-links"} onClick ={() => setMobile(false)}>
         
           <a classname="nav-links" href="#">Home</a>
           <a classname="nav-links" href="#">Headphones</a>
@@ -17,7 +17,7 @@ const Header = () => {
             <i className="fa fa-search"></i>
             <i className="fa fa-shopping-basket"></i>
           </div>
-        
+          <FaBars onClick ={()=>setMenuisVisible(true)} className="mobile" />
           {/* <div classname="mobile-button">
          { <button
             className="navbar-mobile-menu-icon"

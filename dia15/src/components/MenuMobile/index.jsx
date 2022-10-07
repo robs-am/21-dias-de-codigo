@@ -1,11 +1,13 @@
 import "./styles.css";
 import { IoClose } from "react-icons/io5";
+import { useState } from "react";
 
-export function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
+const MenuMobile = () => {
+  const [Mobile, setMobile] = useState(true)
   return (
-    <div className="container" isVisible={menuIsVisible}> 
-      <IoClose size={45} onClick={() => setMenuIsVisible(false)} />
-      <nav className="navbar">
+    <div className="container"> 
+      <IoClose size={45}/>
+      <nav className= {Mobile ? "nav-links-mobile": "nav-links"} onClick ={() => setMobile(true)}>
         
           <a classname="nav-links" href="#">Home</a>
           <a classname="nav-links" href="#">Headphones</a>
@@ -19,4 +21,8 @@ export function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
       </nav>
     </div>
   );
+
+  
 }
+
+export default MenuMobile;
