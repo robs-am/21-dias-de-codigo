@@ -1,50 +1,99 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&display=swap");
 
 .navbar ul {
-    font-family: 'Figtree', sans-serif;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #191919;
-    color: #F8F8F8;
-    font-weight: 400;
-    text-transform: uppercase;
+  font-family: "Figtree", sans-serif;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #191919;
+  color: #f8f8f8;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 li {
-    list-style: none;
-    cursor: pointer;
+  list-style: none;
+  cursor: pointer;
 }
 
 .search {
-    width: 60px;
-    height: 5vh;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-    margin-left: 15px;
+  width: 60px;
+  height: 5vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-left: 15px;
 }
 
-.nav-links:hover {
+.nav-links-mobile-hover:hover {
+  border: 1px ridge #faf6f6f5;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+.mobile-menu-icon {
+  /* position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #f8f8f8;
+  size: 45px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer; */
+  display: none;
+}
+
+@media (max-width: 768px) {
+  {
+    color:#191919;
+  }
+
+  .mobile-menu-icon {
+   
+    color: #f8f8f8;
+    transition: all .4s ease-in-out;
+    top: 1rem;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    display: block;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+  background-color: transparent;
+  
+  }
+
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    color: #f8f8f8;
+    font-weight: 400;
+    list-style: none;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    height: 95vh;
+    overflow-x: hidden;
+    
+    
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links-mobile-hover:hover {
     border: 1px ridge #faf6f6f5;
     border-radius: 0.2rem;
     padding: 0.3rem;
     transition: 0.5s;
     opacity: 0.8;
-}
+  }
 
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-      }
-    
-      nav {
-        
-        
-        
-        
-      }
 }

@@ -16,9 +16,7 @@
 }
 
 @media (max-width: 768px) {
-  .banner {
-  transform: scaleY(-1);
-    }
+  
 
     nav-links {
       display: none;
