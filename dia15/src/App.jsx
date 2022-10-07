@@ -5,7 +5,7 @@ import MainContent from "./components/mainContext/mainContent";
 import Footer from "./components/footer";
 import Banner from "./assets/banner.png";
 
-import { MenuMobile } from "./components/MenuMobile";
+
 /* import Menina2 from "./assets/menina2.mp4"; */
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       {/* <video className="video" src={Menina2} autoPlay loop /> */}
 
       <Header />
-      <MenuMobile />
+      
       <MainContent />
       <Footer />
     </div>

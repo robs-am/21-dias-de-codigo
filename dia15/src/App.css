@@ -16,12 +16,7 @@
 }
 
 @media (max-width: 768px) {
-   .banner {
-  position:relative;
-  z-index: 6;
-  object-fit:fill;
-    
-  }
+  
 
 nav-links {
   display: none;
