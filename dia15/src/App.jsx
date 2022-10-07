@@ -5,6 +5,10 @@ import MainContent from "./components/mainContext/mainContent";
 import Footer from "./components/footer";
 import Banner from "./assets/banner.png";
 
+ import Speakers from "./components/Speakers";
+ import Earbuds from "./components/Earbuds";
+ import Headphones from "./components/Headphones";
+
 
 /* import Menina2 from "./assets/menina2.mp4"; */
 
