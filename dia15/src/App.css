@@ -11,8 +11,15 @@
   flex-direction: column;
   
   height:100%;
-  padding-bottom:  50px  ;
+  padding-bottom:  30px ;
   background-color: #F8F8F8;
+}
+
+.Banner  img  {
+   
+  width: 300px;
+   
+   
 }
 
 @media (max-width: 768px) {

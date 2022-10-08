@@ -2,10 +2,14 @@
 
 .navbar {
   height: 10vh;
-  position:fixed;
+  
   width: 100vw;
   top:0;
+  
+  
 }
+
+
 
 .navbar ul {
   font-family: "Figtree", sans-serif;
@@ -13,8 +17,10 @@
   
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content:space-around;
+  
   background-color: #191919;
+  
   color: #f8f8f8;
   font-weight: 400;
   text-transform: uppercase;
@@ -23,8 +29,11 @@
 
 
 li {
+  display: flex;
+  justify-content: space-around;
   list-style: none;
   cursor: pointer;
+  
 }
 
 .search {
@@ -80,7 +89,10 @@ a {
    .nav-links > .search{
     display:none;
   }
-
+  
+   
+  
+  
   .mobile-menu-icon {
     color: #f8f8f8;
     transition: all 0.4s ease-in-out;
@@ -98,7 +110,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    overflow: hidden;
+    
   }
 
   
@@ -143,5 +155,9 @@ a {
     transition: all 0.2s ease-in-out;
     
     opacity: 0.9;
+  }
+
+  .nav-links-mobile {
+    position: fixed;
   }
 }

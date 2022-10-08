@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/header/header";
 import MainContent from "./components/mainContext/mainContent";
-import Footer from "./components/footer";
+import Footer from "./components/footer/footer";
 import Banner from "./assets/banner.png";
 import Home from "./components/Home";
 import Speakers from "./components/Speakers";

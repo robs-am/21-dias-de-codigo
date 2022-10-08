@@ -2,7 +2,7 @@ import React from 'react'
 
 const Headphones = () => {
   return (
-    <div>Headphones</div>
+    <div><h2>Headphones</h2></div>
   )
 }
 
