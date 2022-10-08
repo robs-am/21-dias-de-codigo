@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&display=swap");
 
 .navbar {
-  
+  height: 10vh;
+  position:fixed;
+  width: 100vw;
+  top:0;
 }
+
 .navbar ul {
   font-family: "Figtree", sans-serif;
   height: 100%;
+  
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -15,9 +20,7 @@
   text-transform: uppercase;
 }
 
-.navbar {
-  height: 10vh;
-}
+
 
 li {
   list-style: none;
@@ -73,6 +76,7 @@ a {
 
 @media (max-width: 768px) {
    .nav-links li,
+   
    .nav-links > .search{
     display:none;
   }
@@ -93,11 +97,15 @@ a {
   .nav-links ul {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
   }
 
+  
+
   .nav-links-mobile {
-    align-items: center;
-    justify-content: space-evenly;
+    
+    
 
     position: absolute;
 

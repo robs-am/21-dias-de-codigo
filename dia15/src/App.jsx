@@ -15,10 +15,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="container">
-      <img classname="banner" src={Banner} alt="banner mulher headphone" />
+      
       {/* <video className="video" src={Menina2} autoPlay loop /> */}
       <Router>
         <Header />
+        <img classname="banner" src={Banner} alt="banner mulher headphone" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Headphones" element={<Headphones />} />
