@@ -15,9 +15,9 @@
   background-color: #F8F8F8;
 }
 
-.Banner  img  {
+.banner img  {
    
-  width: 300px;
+  max-width: 80%;
    
    
 }
