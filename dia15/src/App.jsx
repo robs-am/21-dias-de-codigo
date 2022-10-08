@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/header/header";
 import MainContent from "./components/mainContext/mainContent";
 import Footer from "./components/footer/footer";
-import Banner from "./assets/banner.png";
+import Banner from "./assets/banner.jpg";
 import Home from "./components/Home";
 import Speakers from "./components/Speakers";
 import Earbuds from "./components/Earbuds";
@@ -19,7 +19,7 @@ function App() {
       {/* <video className="video" src={Menina2} autoPlay loop /> */}
       <Router>
         <Header />
-        <img classname="banner" src={Banner} alt="banner mulher headphone" />
+        <img classname="banner" src={Banner} alt="wireless headphone" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Headphones" element={<Headphones />} />
