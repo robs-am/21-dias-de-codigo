@@ -1,7 +1,8 @@
 .banner {
-    background-image: url('./banner.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('./banner2.jpg');
     width: 100%;
-    height: 35.5rem;
+    height: 35rem;
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,23 +10,23 @@
 }
 
 .title{
-    color: #949393;
-    font-size: 48px;
+    color: #c5c3c3;
+    font-size: 60px;
         
     animation: 2s ease-in-out ;
     position: absolute;
-    top: 30%;
+    top: 20%;
     
     left: 5%;
     animation-name: title;
 }
 .subtitle {
-    color: #8d8a8a;
-    font-size:30px;
+    color: #b0b0b0;
+    font-size:28px;
     position: absolute;
     animation: 2s ease-in-out 100ms;
     
-    top: 40%;
+    top: 30%;
     font-weight:300;
     left: 5%;
     animation-name: subtitle;
@@ -96,6 +97,10 @@
           }
         }
           @media (max-width: 768px) {
+            .banner {
+                height: 25rem;
+
+            }
             .title{
                 
                 font-size: 40px;
