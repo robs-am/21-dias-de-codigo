@@ -2,7 +2,7 @@ import React from 'react'
 
 const Speakers = () => {
   return (
-    <div></div>
+    <h2 className='subpage'>Speakers</h2>
   )
 }
 

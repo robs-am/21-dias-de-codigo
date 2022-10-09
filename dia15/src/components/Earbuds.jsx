@@ -2,7 +2,7 @@ import React from 'react'
 
 const Earbuds = () => {
   return (
-    <div></div>
+    <h2 className='subpage'>Earbuds</h2>
   )
 }
 
