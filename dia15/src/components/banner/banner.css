@@ -1,5 +1,5 @@
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(./img/banner.jpg);
+    background-image: url('./banner.jpg');
     width: 100%;
     height: 35.5rem;
     background-attachment: fixed;
