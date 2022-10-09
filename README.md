@@ -21,7 +21,7 @@
 ✔ Dia 12: Carousel - Animais marinhos<br>
 ✔ Dia 13: Menu responsivo<br>
 ✔  Dia 14: Quiz House of Dragons<br>
-  Dia 15: E-commerce<br>
+✔  Dia 15: E-commerce<br>
   Dia 16: Consumindo uma API pública<br>
   Dia 17: Capturando eventos do teclado<br>
   Dia 18: Gerador de senha<br>
