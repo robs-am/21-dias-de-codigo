@@ -94,6 +94,28 @@
           100% {
             opacity: 1;
           }
-    }
+        }
+          @media (max-width: 768px) {
+            .title{
+                
+                font-size: 40px;
+                    
+               
+                position: absolute;
+                top: 30%;
+            }
+            .subtitle {
+                font-size:22px;
+                position: absolute;
+                
+                
+                top: 48%;
+                font-weight:300;
+                
+            }   
+               
 
+          
+        
+        }
     
