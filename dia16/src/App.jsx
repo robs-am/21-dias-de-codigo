@@ -1,10 +1,10 @@
-import api from "./api";
-import React, { Component } from "react";
+ import api from "./api"; 
+ import React, { Component } from "react"; 
 
-class App extends Component {
+ class App extends Component {
 
   state= {
-    obras: [],
+    artist: []
     
   }
 
@@ -12,16 +12,19 @@ class App extends Component {
     const response = await api.get('');
     console.log(response.data);
 
-    this.setState({obras: response.data});
+    this.setState({artist: response.data});
   }
 
   render() {
+    const  {artist} = this.state;
+
     return (
       <div>
         <h1>Lista</h1>
+        {console.log(artist)}
       </div>
     );
   }
 }
 
-export default App;
+export default App; 
