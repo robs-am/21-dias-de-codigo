@@ -2,6 +2,19 @@ import api from "./api";
 import React, { Component } from "react";
 
 class App extends Component {
+
+  state= {
+    obras: [],
+    
+  }
+
+  async componentDidMount() {
+    const response = await api.get('');
+    console.log(response.data);
+
+    this.setState({obras: response.data});
+  }
+
   render() {
     return (
       <div>
