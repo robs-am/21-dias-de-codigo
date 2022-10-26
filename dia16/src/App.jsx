@@ -1,11 +1,17 @@
- import api from "./api"; 
- import React, { Component } from "react"; 
+  import api from './api';
+ import React, {useEffect} from 'react';
+ 
+import React from 'react'
 
- function App() {
+const App = () => {
+  useEffect(() => {
+    
+  }, []);
   return (
-
-    <>src</>
+    <div>App</div>
   )
- }
+}
 
- export default App;
+export default App
+
+ 
