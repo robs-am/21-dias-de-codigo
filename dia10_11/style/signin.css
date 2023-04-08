@@ -20,7 +20,6 @@ body {
   color: dimgrey;
 }
 
-.sing-up a:hover {
+.sing-up {
   color: blueviolet;
-  border-bottom: 0.5px solid #000;
 }

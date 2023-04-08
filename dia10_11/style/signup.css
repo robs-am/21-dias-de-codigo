@@ -19,8 +19,3 @@ body {
 .sign-in {
   color: dimgrey;
 }
-
-.sing-up a:hover {
-  color: blueviolet;
-  border-bottom: 0.5px solid #000;
-}
