@@ -12,14 +12,10 @@ body {
   justify-content: space-evenly;
 }
 
-.sign-in {
+#sign-in {
   border-bottom: 0.8px solid violet;
 }
 
-.sign-up {
+#sign-up {
   color: dimgrey;
-}
-
-.sing-up {
-  color: blueviolet;
 }
