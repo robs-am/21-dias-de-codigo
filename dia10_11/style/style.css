@@ -1,8 +1,6 @@
 body {
-background-image: url("./bgPurple.jpg");
+  background-image: url("./bgPurple.jpg");
 
-font-family: 'Inconsolata', sans-serif;
-font-size: 20px;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 20px;
 }
-
-
