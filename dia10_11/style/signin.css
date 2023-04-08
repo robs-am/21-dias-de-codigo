@@ -1,0 +1,26 @@
+body {
+  background-image: url("./bgPurple.jpg");
+
+  font-family: "Inconsolata", sans-serif;
+  font-size: 20px;
+}
+
+.login-option {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sign-in {
+  border-bottom: 0.8px solid violet;
+}
+
+.sign-up {
+  color: dimgrey;
+}
+
+.sing-up a:hover {
+  color: blueviolet;
+  border-bottom: 0.5px solid #000;
+}
